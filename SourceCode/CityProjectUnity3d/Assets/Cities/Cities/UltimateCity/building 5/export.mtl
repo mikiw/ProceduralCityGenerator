@@ -1,0 +1,18 @@
+newmtl mat1
+map_Kd mat1.png
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat2
+map_Kd mat2.png
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat3
+map_Kd mat3.png
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1

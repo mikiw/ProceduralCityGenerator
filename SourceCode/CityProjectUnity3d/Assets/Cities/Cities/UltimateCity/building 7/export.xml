@@ -1,0 +1,1626 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Model3DGroup x:Key="Model">
+    <Model3DGroup.Children>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2,-0.5,0 -2,3.7,0 -2,3.7,7.8 -2,-0.5,7.8 2,-0.5,7.8 2,3.7,7.8 2,3.7,0 2,-0.5,0 2,-0.5,0 -2,-0.5,0 -2,-0.5,7.8 2,-0.5,7.8 2,3.7,7.8 -2,3.7,7.8 -2,3.7,0 2,3.7,0 -2,3.7,7.8 2,3.7,7.8 2,-0.5,7.8 -2,-0.5,7.8 -2,-0.5,0 2,-0.5,0 2,3.7,0 -2,3.7,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.8,0.5,8 -1.8,2.7,8 -1.8,2.7,16 -1.8,0.5,16 1.8,0.5,16 1.8,2.7,16 1.8,2.7,8 1.8,0.5,8 1.8,0.5,8 -1.8,0.5,8 -1.8,0.5,16 1.8,0.5,16 1.8,2.7,16 -1.8,2.7,16 -1.8,2.7,8 1.8,2.7,8 -1.8,2.7,16 1.8,2.7,16 1.8,0.5,16 -1.8,0.5,16 -1.8,0.5,8 1.8,0.5,8 1.8,2.7,8 -1.8,2.7,8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.7,0.8,16.2 -0.7,2.4,16.2 -0.7,2.4,20.8 -0.7,0.8,20.8 0.7,0.8,20.8 0.7,2.4,20.8 0.7,2.4,16.2 0.7,0.8,16.2 0.7,0.8,16.2 -0.7,0.8,16.2 -0.7,0.8,20.8 0.7,0.8,20.8 0.7,2.4,20.8 -0.7,2.4,20.8 -0.7,2.4,16.2 0.7,2.4,16.2 -0.7,2.4,20.8 0.7,2.4,20.8 0.7,0.8,20.8 -0.7,0.8,20.8 -0.7,0.8,16.2 0.7,0.8,16.2 0.7,2.4,16.2 -0.7,2.4,16.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="0,1.6,21 0,8.4,21 0,8.4,21 0,7.2,22.2 0,7.2,22.2 0,1.6,22.2 0,1.6,21 -6.8,1.6,21 -6.8,1.6,21 -5.6,1.6,22.2 -5.6,1.6,22.2 0,1.6,22.2 0,1.6,21 -8.32732320599217E-16,-5.2,21 -8.32732320599217E-16,-5.2,21 -6.85779558140531E-16,-4,22.2 -6.85779558140531E-16,-4,22.2 0,1.6,22.2 0,1.6,21 6.8,1.6,21 6.8,1.6,21 5.6,1.6,22.2 5.6,1.6,22.2 0,1.6,22.2 0,1.6,21 1.66546464119843E-15,8.4,21 1.66546464119843E-15,8.4,21 1.37155911628106E-15,7.2,22.2 1.37155911628106E-15,7.2,22.2 0,1.6,22.2" TextureCoordinates="0,0 0,1 0,1 0,0 0,0 0,1 0.25,0 0.25,1 0.25,1 0.25,0 0.25,0 0.25,1 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.75,0 0.75,1 0.75,1 0.75,0 0.75,0 0.75,1 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 6 1 6 7 3 2 8 3 8 9 5 4 10 5 10 11 7 6 12 7 12 13 9 8 14 9 14 15 11 10 16 11 16 17 13 12 18 13 18 19 15 14 20 15 20 21 17 16 22 17 22 23 19 18 24 19 24 25 21 20 26 21 26 27 23 22 28 23 28 29 25 24 0 25 0 1 27 26 2 27 2 3 29 28 4 29 4 5" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0,1.6,25.64 0.556230589874905,1.6,25.5519017293313 0.393314422003939,1.99331442200394,25.5519017293313 3.40581757275589E-17,2.15623058987491,25.5519017293313 -0.393314422003939,1.99331442200394,25.5519017293313 -0.556230589874905,1.6,25.5519017293313 -0.393314422003939,1.20668557799606,25.5519017293313 -1.02174527182677E-16,1.04376941012509,25.5519017293313 0.393314422003939,1.20668557799606,25.5519017293313 0.556230589874905,1.6,25.5519017293313 1.05801345412645,1.6,25.2962305898749 0.748128487999416,2.34812848799942,25.2962305898749 6.47824999176406E-17,2.65801345412645,25.2962305898749 -0.748128487999416,2.34812848799942,25.2962305898749 -1.05801345412645,1.6,25.2962305898749 -0.748128487999416,0.851871512000584,25.2962305898749 -1.94347499752922E-16,0.541986545873548,25.2962305898749 0.748128487999416,0.851871512000584,25.2962305898749 1.05801345412645,1.6,25.2962305898749 1.45623058987491,1.6,24.8980134541264 1.02971052507183,2.62971052507183,24.8980134541264 8.91654616495659E-17,3.05623058987491,24.8980134541264 -1.02971052507183,2.62971052507183,24.8980134541264 -1.45623058987491,1.6,24.8980134541264 -1.02971052507183,0.570289474928168,24.8980134541264 -2.67496384948698E-16,0.143769410125095,24.8980134541264 1.02971052507183,0.570289474928168,24.8980134541264 1.45623058987491,1.6,24.8980134541264 1.71190172933128,1.6,24.3962305898749 1.21049732153512,2.81049732153512,24.3962305898749 1.0482028674293E-16,3.31190172933128,24.3962305898749 -1.21049732153512,2.81049732153512,24.3962305898749 -1.71190172933128,1.6,24.3962305898749 -1.21049732153512,0.389502678464877,24.3962305898749 -3.1446086022879E-16,-0.111901729331276,24.3962305898749 1.21049732153512,0.389502678464877,24.3962305898749 1.71190172933128,1.6,24.3962305898749 1.8,1.6,23.84 1.27279220613579,2.87279220613579,23.84 1.10214571844014E-16,3.4,23.84 -1.27279220613579,2.87279220613579,23.84 -1.8,1.6,23.84 -1.27279220613579,0.327207793864215,23.84 -3.30643715532042E-16,-0.2,23.84 1.27279220613579,0.327207793864214,23.84 1.8,1.6,23.84 1.71190172933128,1.6,23.2837694101251 1.21049732153512,2.81049732153512,23.2837694101251 1.0482028674293E-16,3.31190172933128,23.2837694101251 -1.21049732153512,2.81049732153512,23.2837694101251 -1.71190172933128,1.6,23.2837694101251 -1.21049732153512,0.389502678464877,23.2837694101251 -3.1446086022879E-16,-0.111901729331277,23.2837694101251 1.21049732153512,0.389502678464877,23.2837694101251 1.71190172933128,1.6,23.2837694101251 1.45623058987491,1.6,22.7819865458735 1.02971052507183,2.62971052507183,22.7819865458735 8.91654616495659E-17,3.05623058987491,22.7819865458735 -1.02971052507183,2.62971052507183,22.7819865458735 -1.45623058987491,1.6,22.7819865458735 -1.02971052507183,0.570289474928168,22.7819865458735 -2.67496384948698E-16,0.143769410125095,22.7819865458735 1.02971052507183,0.570289474928168,22.7819865458735 1.45623058987491,1.6,22.7819865458735 1.05801345412645,1.6,22.3837694101251 0.748128487999416,2.34812848799942,22.3837694101251 6.47824999176407E-17,2.65801345412645,22.3837694101251 -0.748128487999416,2.34812848799942,22.3837694101251 -1.05801345412645,1.6,22.3837694101251 -0.748128487999417,0.851871512000584,22.3837694101251 -1.94347499752922E-16,0.541986545873548,22.3837694101251 0.748128487999416,0.851871512000584,22.3837694101251 1.05801345412645,1.6,22.3837694101251 0.556230589874905,1.6,22.1280982706687 0.393314422003939,1.99331442200394,22.1280982706687 3.40581757275589E-17,2.15623058987491,22.1280982706687 -0.393314422003939,1.99331442200394,22.1280982706687 -0.556230589874905,1.6,22.1280982706687 -0.393314422003939,1.20668557799606,22.1280982706687 -1.02174527182677E-16,1.04376941012509,22.1280982706687 0.393314422003939,1.20668557799606,22.1280982706687 0.556230589874905,1.6,22.1280982706687 2.20429143688028E-16,1.6,22.04 1.55866942272948E-16,1.6,22.04 1.34969464963992E-32,1.6,22.04 -1.55866942272948E-16,1.6,22.04 -2.20429143688028E-16,1.6,22.04 -1.55866942272948E-16,1.6,22.04 -4.04908394891977E-32,1.6,22.04 1.55866942272948E-16,1.6,22.04 2.20429143688028E-16,1.6,22.04" Normals="0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0.309016994374947,0,0.951056516295154 0.218508012224411,0.21850801222441,0.951056516295154 1.89212087375327E-17,0.309016994374947,0.951056516295154 -0.21850801222441,0.218508012224411,0.951056516295154 -0.309016994374947,3.78424174750654E-17,0.951056516295154 -0.218508012224411,-0.21850801222441,0.951056516295154 -5.67636262125982E-17,-0.309016994374947,0.951056516295154 0.21850801222441,-0.218508012224411,0.951056516295154 0.309016994374947,-7.56848349501309E-17,0.951056516295154 0.587785252292473,0,0.809016994374947 0.415626937777453,0.415626937777453,0.809016994374947 3.59902777320226E-17,0.587785252292473,0.809016994374947 -0.415626937777453,0.415626937777453,0.809016994374947 -0.587785252292473,7.19805554640452E-17,0.809016994374947 -0.415626937777454,-0.415626937777453,0.809016994374947 -1.07970833196068E-16,-0.587785252292473,0.809016994374947 0.415626937777453,-0.415626937777454,0.809016994374947 0.587785252292473,-1.4396111092809E-16,0.809016994374947 0.809016994374947,0,0.587785252292473 0.572061402817684,0.572061402817684,0.587785252292473 4.95363675830922E-17,0.809016994374947,0.587785252292473 -0.572061402817684,0.572061402817684,0.587785252292473 -0.809016994374947,9.90727351661843E-17,0.587785252292473 -0.572061402817684,-0.572061402817684,0.587785252292473 -1.48609102749276E-16,-0.809016994374947,0.587785252292473 0.572061402817684,-0.572061402817684,0.587785252292473 0.809016994374947,-1.98145470332369E-16,0.587785252292473 0.951056516295154,0,0.309016994374947 0.672498511963957,0.672498511963957,0.309016994374947 5.8233492634961E-17,0.951056516295154,0.309016994374947 -0.672498511963957,0.672498511963957,0.309016994374947 -0.951056516295154,1.16466985269922E-16,0.309016994374947 -0.672498511963957,-0.672498511963957,0.309016994374947 -1.74700477904883E-16,-0.951056516295154,0.309016994374947 0.672498511963957,-0.672498511963957,0.309016994374947 0.951056516295154,-2.32933970539844E-16,0.309016994374947 1,0,6.12303176911189E-17 0.707106781186548,0.707106781186547,6.12303176911189E-17 6.12303176911189E-17,1,6.12303176911189E-17 -0.707106781186547,0.707106781186548,6.12303176911189E-17 -1,1.22460635382238E-16,6.12303176911189E-17 -0.707106781186548,-0.707106781186547,6.12303176911189E-17 -1.83690953073357E-16,-1,6.12303176911189E-17 0.707106781186547,-0.707106781186548,6.12303176911189E-17 1,-2.44921270764475E-16,6.12303176911189E-17 0.951056516295154,0,-0.309016994374947 0.672498511963957,0.672498511963957,-0.309016994374947 5.8233492634961E-17,0.951056516295154,-0.309016994374947 -0.672498511963957,0.672498511963957,-0.309016994374947 -0.951056516295154,1.16466985269922E-16,-0.309016994374947 -0.672498511963957,-0.672498511963957,-0.309016994374947 -1.74700477904883E-16,-0.951056516295154,-0.309016994374947 0.672498511963957,-0.672498511963957,-0.309016994374947 0.951056516295154,-2.32933970539844E-16,-0.309016994374947 0.809016994374947,0,-0.587785252292473 0.572061402817684,0.572061402817684,-0.587785252292473 4.95363675830922E-17,0.809016994374947,-0.587785252292473 -0.572061402817684,0.572061402817684,-0.587785252292473 -0.809016994374947,9.90727351661843E-17,-0.587785252292473 -0.572061402817684,-0.572061402817684,-0.587785252292473 -1.48609102749276E-16,-0.809016994374947,-0.587785252292473 0.572061402817684,-0.572061402817684,-0.587785252292473 0.809016994374947,-1.98145470332369E-16,-0.587785252292473 0.587785252292473,0,-0.809016994374947 0.415626937777454,0.415626937777453,-0.809016994374947 3.59902777320226E-17,0.587785252292473,-0.809016994374947 -0.415626937777453,0.415626937777454,-0.809016994374947 -0.587785252292473,7.19805554640452E-17,-0.809016994374947 -0.415626937777454,-0.415626937777453,-0.809016994374947 -1.07970833196068E-16,-0.587785252292473,-0.809016994374947 0.415626937777453,-0.415626937777454,-0.809016994374947 0.587785252292473,-1.4396111092809E-16,-0.809016994374947 0.309016994374948,0,-0.951056516295154 0.218508012224411,0.218508012224411,-0.951056516295154 1.89212087375327E-17,0.309016994374948,-0.951056516295154 -0.218508012224411,0.218508012224411,-0.951056516295154 -0.309016994374948,3.78424174750655E-17,-0.951056516295154 -0.218508012224411,-0.218508012224411,-0.951056516295154 -5.67636262125982E-17,-0.309016994374948,-0.951056516295154 0.218508012224411,-0.218508012224411,-0.951056516295154 0.309016994374948,-7.56848349501309E-17,-0.951056516295154 1.22460635382238E-16,0,-1 8.65927457071936E-17,8.65927457071935E-17,-1 7.49830360911069E-33,1.22460635382238E-16,-1 -8.65927457071935E-17,8.65927457071936E-17,-1 -1.22460635382238E-16,1.49966072182214E-32,-1 -8.65927457071936E-17,-8.65927457071935E-17,-1 -2.24949108273321E-32,-1.22460635382238E-16,-1 8.65927457071935E-17,-8.65927457071936E-17,-1 1.22460635382238E-16,-2.99932144364427E-32,-1" TextureCoordinates="0,0 0.125,0 0.25,0 0.375,0 0.5,0 0.625,0 0.75,0 0.875,0 1,0 0,0.1 0.125,0.1 0.25,0.1 0.375,0.1 0.5,0.1 0.625,0.1 0.75,0.1 0.875,0.1 1,0.1 0,0.2 0.125,0.2 0.25,0.2 0.375,0.2 0.5,0.2 0.625,0.2 0.75,0.2 0.875,0.2 1,0.2 0,0.3 0.125,0.3 0.25,0.3 0.375,0.3 0.5,0.3 0.625,0.3 0.75,0.3 0.875,0.3 1,0.3 0,0.4 0.125,0.4 0.25,0.4 0.375,0.4 0.5,0.4 0.625,0.4 0.75,0.4 0.875,0.4 1,0.4 0,0.5 0.125,0.5 0.25,0.5 0.375,0.5 0.5,0.5 0.625,0.5 0.75,0.5 0.875,0.5 1,0.5 0,0.6 0.125,0.6 0.25,0.6 0.375,0.6 0.5,0.6 0.625,0.6 0.75,0.6 0.875,0.6 1,0.6 0,0.7 0.125,0.7 0.25,0.7 0.375,0.7 0.5,0.7 0.625,0.7 0.75,0.7 0.875,0.7 1,0.7 0,0.8 0.125,0.8 0.25,0.8 0.375,0.8 0.5,0.8 0.625,0.8 0.75,0.8 0.875,0.8 1,0.8 0,0.9 0.125,0.9 0.25,0.9 0.375,0.9 0.5,0.9 0.625,0.9 0.75,0.9 0.875,0.9 1,0.9 0,1 0.125,1 0.25,1 0.375,1 0.5,1 0.625,1 0.75,1 0.875,1 1,1" TriangleIndices="10 0 9 11 1 10 12 2 11 13 3 12 14 4 13 15 5 14 16 6 15 17 7 16 9 19 10 19 9 18 10 20 11 20 10 19 11 21 12 21 11 20 12 22 13 22 12 21 13 23 14 23 13 22 14 24 15 24 14 23 15 25 16 25 15 24 16 26 17 26 16 25 18 28 19 28 18 27 19 29 20 29 19 28 20 30 21 30 20 29 21 31 22 31 21 30 22 32 23 32 22 31 23 33 24 33 23 32 24 34 25 34 24 33 25 35 26 35 25 34 27 37 28 37 27 36 28 38 29 38 28 37 29 39 30 39 29 38 30 40 31 40 30 39 31 41 32 41 31 40 32 42 33 42 32 41 33 43 34 43 33 42 34 44 35 44 34 43 36 46 37 46 36 45 37 47 38 47 37 46 38 48 39 48 38 47 39 49 40 49 39 48 40 50 41 50 40 49 41 51 42 51 41 50 42 52 43 52 42 51 43 53 44 53 43 52 45 55 46 55 45 54 46 56 47 56 46 55 47 57 48 57 47 56 48 58 49 58 48 57 49 59 50 59 49 58 50 60 51 60 50 59 51 61 52 61 51 60 52 62 53 62 52 61 54 64 55 64 54 63 55 65 56 65 55 64 56 66 57 66 56 65 57 67 58 67 57 66 58 68 59 68 58 67 59 69 60 69 59 68 60 70 61 70 60 69 61 71 62 71 61 70 63 73 64 73 63 72 64 74 65 74 64 73 65 75 66 75 65 74 66 76 67 76 66 75 67 77 68 77 67 76 68 78 69 78 68 77 69 79 70 79 69 78 70 80 71 80 70 79 72 82 73 82 72 81 73 83 74 83 73 82 74 84 75 84 74 83 75 85 76 85 75 84 76 86 77 86 76 85 77 87 78 87 77 86 78 88 79 88 78 87 79 89 80 89 79 88 81 91 82 82 92 83 83 93 84 84 94 85 85 95 86 86 96 87 87 97 88 88 98 89" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="0,1.6,25.64 0,4,25.64 0,4,25.64 0,9.4,27.84 0,9.4,27.84 0,1.6,27.84 0,1.6,25.64 -2.4,1.6,25.64 -2.4,1.6,25.64 -7.8,1.6,27.84 -7.8,1.6,27.84 0,1.6,27.84 0,1.6,25.64 -2.93905524917371E-16,-0.8,25.64 -2.93905524917371E-16,-0.8,25.64 -9.55192955981454E-16,-6.2,27.84 -9.55192955981454E-16,-6.2,27.84 0,1.6,27.84 0,1.6,25.64 2.4,1.6,25.64 2.4,1.6,25.64 7.8,1.6,27.84 7.8,1.6,27.84 0,1.6,27.84 0,1.6,25.64 5.87811049834741E-16,4,25.64 5.87811049834741E-16,4,25.64 1.91038591196291E-15,9.4,27.84 1.91038591196291E-15,9.4,27.84 0,1.6,27.84" TextureCoordinates="0,0 0,1 0,1 0,0 0,0 0,1 0.25,0 0.25,1 0.25,1 0.25,0 0.25,0 0.25,1 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.75,0 0.75,1 0.75,1 0.75,0 0.75,0 0.75,1 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 6 1 6 7 3 2 8 3 8 9 5 4 10 5 10 11 7 6 12 7 12 13 9 8 14 9 14 15 11 10 16 11 16 17 13 12 18 13 18 19 15 14 20 15 20 21 17 16 22 17 22 23 19 18 24 19 24 25 21 20 26 21 26 27 23 22 28 23 28 29 25 24 0 25 0 1 27 26 2 27 2 3 29 28 4 29 4 5" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.8,0.1,27.84 -1.8,3.1,27.84 -1.8,3.1,37.64 -1.8,0.1,37.64 1.8,0.1,37.64 1.8,3.1,37.64 1.8,3.1,27.84 1.8,0.1,27.84 1.8,0.1,27.84 -1.8,0.1,27.84 -1.8,0.1,37.64 1.8,0.1,37.64 1.8,3.1,37.64 -1.8,3.1,37.64 -1.8,3.1,27.84 1.8,3.1,27.84 -1.8,3.1,37.64 1.8,3.1,37.64 1.8,0.1,37.64 -1.8,0.1,37.64 -1.8,0.1,27.84 1.8,0.1,27.84 1.8,3.1,27.84 -1.8,3.1,27.84" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.8,0.9,37.84 -0.8,2.3,37.84 -0.8,2.3,46.84 -0.8,0.9,46.84 0.8,0.9,46.84 0.8,2.3,46.84 0.8,2.3,37.84 0.8,0.9,37.84 0.8,0.9,37.84 -0.8,0.9,37.84 -0.8,0.9,46.84 0.8,0.9,46.84 0.8,2.3,46.84 -0.8,2.3,46.84 -0.8,2.3,37.84 0.8,2.3,37.84 -0.8,2.3,46.84 0.8,2.3,46.84 0.8,0.9,46.84 -0.8,0.9,46.84 -0.8,0.9,37.84 0.8,0.9,37.84 0.8,2.3,37.84 -0.8,2.3,37.84" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.9,-1.7,0 -0.9,-0.7,0 -0.9,-0.7,8.8 -0.9,-1.7,8.8 0.9,-1.7,8.8 0.9,-0.7,8.8 0.9,-0.7,0 0.9,-1.7,0 0.9,-1.7,0 -0.9,-1.7,0 -0.9,-1.7,8.8 0.9,-1.7,8.8 0.9,-0.7,8.8 -0.9,-0.7,8.8 -0.9,-0.7,0 0.9,-0.7,0 -0.9,-0.7,8.8 0.9,-0.7,8.8 0.9,-1.7,8.8 -0.9,-1.7,8.8 -0.9,-1.7,0 0.9,-1.7,0 0.9,-0.7,0 -0.9,-0.7,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.3,-2.1,9 -2.3,-0.3,9 -2.3,-0.3,14.4 -2.3,-2.1,14.4 2.3,-2.1,14.4 2.3,-0.3,14.4 2.3,-0.3,9 2.3,-2.1,9 2.3,-2.1,9 -2.3,-2.1,9 -2.3,-2.1,14.4 2.3,-2.1,14.4 2.3,-0.3,14.4 -2.3,-0.3,14.4 -2.3,-0.3,9 2.3,-0.3,9 -2.3,-0.3,14.4 2.3,-0.3,14.4 2.3,-2.1,14.4 -2.3,-2.1,14.4 -2.3,-2.1,9 2.3,-2.1,9 2.3,-0.3,9 -2.3,-0.3,9" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.6,-2,14.6 -1.6,-0.4,14.6 -1.6,-0.4,23.4 -1.6,-2,23.4 1.6,-2,23.4 1.6,-0.4,23.4 1.6,-0.4,14.6 1.6,-2,14.6 1.6,-2,14.6 -1.6,-2,14.6 -1.6,-2,23.4 1.6,-2,23.4 1.6,-0.4,23.4 -1.6,-0.4,23.4 -1.6,-0.4,14.6 1.6,-0.4,14.6 -1.6,-0.4,23.4 1.6,-0.4,23.4 1.6,-2,23.4 -1.6,-2,23.4 -1.6,-2,14.6 1.6,-2,14.6 1.6,-0.4,14.6 -1.6,-0.4,14.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.1,-3.2,23.6 -1.1,0.8,23.6 -1.1,0.8,30.4 -1.1,-3.2,30.4 1.1,-3.2,30.4 1.1,0.8,30.4 1.1,0.8,23.6 1.1,-3.2,23.6 1.1,-3.2,23.6 -1.1,-3.2,23.6 -1.1,-3.2,30.4 1.1,-3.2,30.4 1.1,0.8,30.4 -1.1,0.8,30.4 -1.1,0.8,23.6 1.1,0.8,23.6 -1.1,0.8,30.4 1.1,0.8,30.4 1.1,-3.2,30.4 -1.1,-3.2,30.4 -1.1,-3.2,23.6 1.1,-3.2,23.6 1.1,0.8,23.6 -1.1,0.8,23.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.7,-3.3,30.4 -0.7,0.9,30.4 -0.7,0.9,36 -0.7,-3.3,36 0.7,-3.3,36 0.7,0.9,36 0.7,0.9,30.4 0.7,-3.3,30.4 0.7,-3.3,30.4 -0.7,-3.3,30.4 -0.7,-3.3,36 0.7,-3.3,36 0.7,0.9,36 -0.7,0.9,36 -0.7,0.9,30.4 0.7,0.9,30.4 -0.7,0.9,36 0.7,0.9,36 0.7,-3.3,36 -0.7,-3.3,36 -0.7,-3.3,30.4 0.7,-3.3,30.4 0.7,0.9,30.4 -0.7,0.9,30.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.4,-1.2,0 -1.4,3.6,0 -1.4,3.6,4.8 -1.4,-1.2,4.8 0.6,-1.2,4.8 0.6,3.6,4.8 0.6,3.6,0 0.6,-1.2,0 0.6,-1.2,0 -1.4,-1.2,0 -1.4,-1.2,4.8 0.6,-1.2,4.8 0.6,3.6,4.8 -1.4,3.6,4.8 -1.4,3.6,0 0.6,3.6,0 -1.4,3.6,4.8 0.6,3.6,4.8 0.6,-1.2,4.8 -1.4,-1.2,4.8 -1.4,-1.2,0 0.6,-1.2,0 0.6,3.6,0 -1.4,3.6,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.6,0,5 -1.6,2.4,5 -1.6,2.4,12.4 -1.6,0,12.4 0.8,0,12.4 0.8,2.4,12.4 0.8,2.4,5 0.8,0,5 0.8,0,5 -1.6,0,5 -1.6,0,12.4 0.8,0,12.4 0.8,2.4,12.4 -1.6,2.4,12.4 -1.6,2.4,5 0.8,2.4,5 -1.6,2.4,12.4 0.8,2.4,12.4 0.8,0,12.4 -1.6,0,12.4 -1.6,0,5 0.8,0,5 0.8,2.4,5 -1.6,2.4,5" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.4,1.2,12.6 -0.4,8.6,12.6 -0.4,8.6,12.6 -0.4,6.2,14.6 -0.4,6.2,14.6 -0.4,1.2,14.6 -0.4,1.2,12.6 -7.8,1.2,12.6 -7.8,1.2,12.6 -5.4,1.2,14.6 -5.4,1.2,14.6 -0.4,1.2,14.6 -0.4,1.2,12.6 -0.400000000000001,-6.2,12.6 -0.400000000000001,-6.2,12.6 -0.400000000000001,-3.8,14.6 -0.400000000000001,-3.8,14.6 -0.4,1.2,14.6 -0.4,1.2,12.6 7,1.2,12.6 7,1.2,12.6 4.6,1.2,14.6 4.6,1.2,14.6 -0.4,1.2,14.6 -0.4,1.2,12.6 -0.399999999999998,8.6,12.6 -0.399999999999998,8.6,12.6 -0.399999999999999,6.2,14.6 -0.399999999999999,6.2,14.6 -0.4,1.2,14.6" TextureCoordinates="0,0 0,1 0,1 0,0 0,0 0,1 0.25,0 0.25,1 0.25,1 0.25,0 0.25,0 0.25,1 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.75,0 0.75,1 0.75,1 0.75,0 0.75,0 0.75,1 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 6 1 6 7 3 2 8 3 8 9 5 4 10 5 10 11 7 6 12 7 12 13 9 8 14 9 14 15 11 10 16 11 16 17 13 12 18 13 18 19 15 14 20 15 20 21 17 16 22 17 22 23 19 18 24 19 24 25 21 20 26 21 26 27 23 22 28 23 28 29 25 24 0 25 0 1 27 26 2 27 2 3 29 28 4 29 4 5" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.4,-1,14.6 -2.4,3.4,14.6 -2.4,3.4,21.6 -2.4,-1,21.6 1.6,-1,21.6 1.6,3.4,21.6 1.6,3.4,14.6 1.6,-1,14.6 1.6,-1,14.6 -2.4,-1,14.6 -2.4,-1,21.6 1.6,-1,21.6 1.6,3.4,21.6 -2.4,3.4,21.6 -2.4,3.4,14.6 1.6,3.4,14.6 -2.4,3.4,21.6 1.6,3.4,21.6 1.6,-1,21.6 -2.4,-1,21.6 -2.4,-1,14.6 1.6,-1,14.6 1.6,3.4,14.6 -2.4,3.4,14.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.1,0.5,21.6 -2.1,1.9,21.6 -2.1,1.9,30.2 -2.1,0.5,30.2 1.3,0.5,30.2 1.3,1.9,30.2 1.3,1.9,21.6 1.3,0.5,21.6 1.3,0.5,21.6 -2.1,0.5,21.6 -2.1,0.5,30.2 1.3,0.5,30.2 1.3,1.9,30.2 -2.1,1.9,30.2 -2.1,1.9,21.6 1.3,1.9,21.6 -2.1,1.9,30.2 1.3,1.9,30.2 1.3,0.5,30.2 -2.1,0.5,30.2 -2.1,0.5,21.6 1.3,0.5,21.6 1.3,1.9,21.6 -2.1,1.9,21.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.4,1.65,30.4 -0.4,2.2,30.4 -0.4,2.2,30.4 -0.4,2.2,32.3 -0.4,2.2,32.3 -0.4,1.65,32.3 -0.4,1.65,32.3 -0.4,1.65,30.4 -0.664503363531613,1.56405764746873,30.4 -0.987785252292473,2.00901699437495,30.4 -0.987785252292473,2.00901699437495,30.4 -0.987785252292473,2.00901699437495,32.3 -0.987785252292473,2.00901699437495,32.3 -0.664503363531613,1.56405764746873,32.3 -0.664503363531613,1.56405764746873,32.3 -0.664503363531613,1.56405764746873,30.4 -0.827975432332819,1.33905764746873,30.4 -1.35105651629515,1.50901699437495,30.4 -1.35105651629515,1.50901699437495,30.4 -1.35105651629515,1.50901699437495,32.3 -1.35105651629515,1.50901699437495,32.3 -0.827975432332819,1.33905764746873,32.3 -0.827975432332819,1.33905764746873,32.3 -0.827975432332819,1.33905764746873,30.4 -0.827975432332819,1.06094235253127,30.4 -1.35105651629515,0.890983005625053,30.4 -1.35105651629515,0.890983005625053,30.4 -1.35105651629515,0.890983005625053,32.3 -1.35105651629515,0.890983005625053,32.3 -0.827975432332819,1.06094235253127,32.3 -0.827975432332819,1.06094235253127,32.3 -0.827975432332819,1.06094235253127,30.4 -0.664503363531613,0.835942352531274,30.4 -0.987785252292473,0.390983005625053,30.4 -0.987785252292473,0.390983005625053,30.4 -0.987785252292473,0.390983005625053,32.3 -0.987785252292473,0.390983005625053,32.3 -0.664503363531613,0.835942352531274,32.3 -0.664503363531613,0.835942352531274,32.3 -0.664503363531613,0.835942352531274,30.4 -0.4,0.75,30.4 -0.4,0.2,30.4 -0.4,0.2,30.4 -0.4,0.2,32.3 -0.4,0.2,32.3 -0.4,0.75,32.3 -0.4,0.75,32.3 -0.4,0.75,30.4 -0.135496636468387,0.835942352531274,30.4 0.187785252292473,0.390983005625053,30.4 0.187785252292473,0.390983005625053,30.4 0.187785252292473,0.390983005625053,32.3 0.187785252292473,0.390983005625053,32.3 -0.135496636468387,0.835942352531274,32.3 -0.135496636468387,0.835942352531274,32.3 -0.135496636468387,0.835942352531274,30.4 0.0279754323328192,1.06094235253127,30.4 0.551056516295154,0.890983005625053,30.4 0.551056516295154,0.890983005625053,30.4 0.551056516295154,0.890983005625053,32.3 0.551056516295154,0.890983005625053,32.3 0.0279754323328192,1.06094235253127,32.3 0.0279754323328192,1.06094235253127,32.3 0.0279754323328192,1.06094235253127,30.4 0.0279754323328192,1.33905764746873,30.4 0.551056516295154,1.50901699437495,30.4 0.551056516295154,1.50901699437495,30.4 0.551056516295154,1.50901699437495,32.3 0.551056516295154,1.50901699437495,32.3 0.0279754323328192,1.33905764746873,32.3 0.0279754323328192,1.33905764746873,32.3 0.0279754323328192,1.33905764746873,30.4 -0.135496636468387,1.56405764746873,30.4 0.187785252292473,2.00901699437495,30.4 0.187785252292473,2.00901699437495,30.4 0.187785252292473,2.00901699437495,32.3 0.187785252292473,2.00901699437495,32.3 -0.135496636468387,1.56405764746873,32.3 -0.135496636468387,1.56405764746873,32.3 -0.135496636468387,1.56405764746873,30.4 -0.4,1.65,30.4 -0.4,2.2,30.4 -0.4,2.2,30.4 -0.4,2.2,32.3 -0.4,2.2,32.3 -0.4,1.65,32.3 -0.4,1.65,32.3 -0.4,1.65,30.4" TextureCoordinates="0,1 0,0 0,0 0,1 0,1 0,0 0,0 0,1 0.1,1 0.1,0 0.1,0 0.1,1 0.1,1 0.1,0 0.1,0 0.1,1 0.2,1 0.2,0 0.2,0 0.2,1 0.2,1 0.2,0 0.2,0 0.2,1 0.3,1 0.3,0 0.3,0 0.3,1 0.3,1 0.3,0 0.3,0 0.3,1 0.4,1 0.4,0 0.4,0 0.4,1 0.4,1 0.4,0 0.4,0 0.4,1 0.5,1 0.5,0 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.6,1 0.6,0 0.6,0 0.6,1 0.6,1 0.6,0 0.6,0 0.6,1 0.7,1 0.7,0 0.7,0 0.7,1 0.7,1 0.7,0 0.7,0 0.7,1 0.8,1 0.8,0 0.8,0 0.8,1 0.8,1 0.8,0 0.8,0 0.8,1 0.9,1 0.9,0 0.9,0 0.9,1 0.9,1 0.9,0 0.9,0 0.9,1 1,1 1,0 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 8 1 8 9 3 2 10 3 10 11 5 4 12 5 12 13 7 6 14 7 14 15 9 8 16 9 16 17 11 10 18 11 18 19 13 12 20 13 20 21 15 14 22 15 22 23 17 16 24 17 24 25 19 18 26 19 26 27 21 20 28 21 28 29 23 22 30 23 30 31 25 24 32 25 32 33 27 26 34 27 34 35 29 28 36 29 36 37 31 30 38 31 38 39 33 32 40 33 40 41 35 34 42 35 42 43 37 36 44 37 44 45 39 38 46 39 46 47 41 40 48 41 48 49 43 42 50 43 50 51 45 44 52 45 52 53 47 46 54 47 54 55 49 48 56 49 56 57 51 50 58 51 58 59 53 52 60 53 60 61 55 54 62 55 62 63 57 56 64 57 64 65 59 58 66 59 66 67 61 60 68 61 68 69 63 62 70 63 70 71 65 64 72 65 72 73 67 66 74 67 74 75 69 68 76 69 76 77 71 70 78 71 78 79 73 72 80 73 80 81 75 74 82 75 82 83 77 76 84 77 84 85 79 78 86 79 86 87 81 80 0 81 0 1 83 82 2 83 2 3 85 84 4 85 4 5 87 86 6 87 6 7" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.2,-0.5,32.5 -1.2,2.9,32.5 -1.2,2.9,40.7 -1.2,-0.5,40.7 0.4,-0.5,40.7 0.4,2.9,40.7 0.4,2.9,32.5 0.4,-0.5,32.5 0.4,-0.5,32.5 -1.2,-0.5,32.5 -1.2,-0.5,40.7 0.4,-0.5,40.7 0.4,2.9,40.7 -1.2,2.9,40.7 -1.2,2.9,32.5 0.4,2.9,32.5 -1.2,2.9,40.7 0.4,2.9,40.7 0.4,-0.5,40.7 -1.2,-0.5,40.7 -1.2,-0.5,32.5 0.4,-0.5,32.5 0.4,2.9,32.5 -1.2,2.9,32.5" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.4,1.2,40.9 -0.4,3.8,40.9 -0.4,3.8,40.9 -0.4,9.2,44.3 -0.4,9.2,44.3 -0.4,1.2,44.3 -0.4,1.2,40.9 -2.65166604983954,-0.0999999999999992,40.9 -2.65166604983954,-0.0999999999999992,40.9 -7.32820323027551,-2.8,44.3 -7.32820323027551,-2.8,44.3 -0.4,1.2,44.3 -0.4,1.2,40.9 1.85166604983954,-0.100000000000001,40.9 1.85166604983954,-0.100000000000001,40.9 6.52820323027551,-2.8,44.3 6.52820323027551,-2.8,44.3 -0.4,1.2,44.3 -0.4,1.2,40.9 -0.399999999999999,3.8,40.9 -0.399999999999999,3.8,40.9 -0.399999999999998,9.2,44.3 -0.399999999999998,9.2,44.3 -0.4,1.2,44.3" TextureCoordinates="0,0 0,1 0,1 0,0 0,0 0,1 0.333333333333333,0 0.333333333333333,1 0.333333333333333,1 0.333333333333333,0 0.333333333333333,0 0.333333333333333,1 0.666666666666667,0 0.666666666666667,1 0.666666666666667,1 0.666666666666667,0 0.666666666666667,0 0.666666666666667,1 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 6 1 6 7 3 2 8 3 8 9 5 4 10 5 10 11 7 6 12 7 12 13 9 8 14 9 14 15 11 10 16 11 16 17 13 12 18 13 18 19 15 14 20 15 20 21 17 16 22 17 22 23 19 18 0 19 0 1 21 20 2 21 2 3 23 22 4 23 4 5" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.7,-3.1,0 -0.7,0.7,0 -0.7,0.7,9.2 -0.7,-3.1,9.2 1.5,-3.1,9.2 1.5,0.7,9.2 1.5,0.7,0 1.5,-3.1,0 1.5,-3.1,0 -0.7,-3.1,0 -0.7,-3.1,9.2 1.5,-3.1,9.2 1.5,0.7,9.2 -0.7,0.7,9.2 -0.7,0.7,0 1.5,0.7,0 -0.7,0.7,9.2 1.5,0.7,9.2 1.5,-3.1,9.2 -0.7,-3.1,9.2 -0.7,-3.1,0 1.5,-3.1,0 1.5,0.7,0 -0.7,0.7,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.7,-2.6,9.4 -0.7,0.2,9.4 -0.7,0.2,14.4 -0.7,-2.6,14.4 1.5,-2.6,14.4 1.5,0.2,14.4 1.5,0.2,9.4 1.5,-2.6,9.4 1.5,-2.6,9.4 -0.7,-2.6,9.4 -0.7,-2.6,14.4 1.5,-2.6,14.4 1.5,0.2,14.4 -0.7,0.2,14.4 -0.7,0.2,9.4 1.5,0.2,9.4 -0.7,0.2,14.4 1.5,0.2,14.4 1.5,-2.6,14.4 -0.7,-2.6,14.4 -0.7,-2.6,9.4 1.5,-2.6,9.4 1.5,0.2,9.4 -0.7,0.2,9.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.4,-3.4,14.6 -1.4,1,14.6 -1.4,1,19.6 -1.4,-3.4,19.6 2.2,-3.4,19.6 2.2,1,19.6 2.2,1,14.6 2.2,-3.4,14.6 2.2,-3.4,14.6 -1.4,-3.4,14.6 -1.4,-3.4,19.6 2.2,-3.4,19.6 2.2,1,19.6 -1.4,1,19.6 -1.4,1,14.6 2.2,1,14.6 -1.4,1,19.6 2.2,1,19.6 2.2,-3.4,19.6 -1.4,-3.4,19.6 -1.4,-3.4,14.6 2.2,-3.4,14.6 2.2,1,14.6 -1.4,1,14.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.2,-2.2,19.6 -0.2,-0.2,19.6 -0.2,-0.2,24.4 -0.2,-2.2,24.4 1,-2.2,24.4 1,-0.2,24.4 1,-0.2,19.6 1,-2.2,19.6 1,-2.2,19.6 -0.2,-2.2,19.6 -0.2,-2.2,24.4 1,-2.2,24.4 1,-0.2,24.4 -0.2,-0.2,24.4 -0.2,-0.2,19.6 1,-0.2,19.6 -0.2,-0.2,24.4 1,-0.2,24.4 1,-2.2,24.4 -0.2,-2.2,24.4 -0.2,-2.2,19.6 1,-2.2,19.6 1,-0.2,19.6 -0.2,-0.2,19.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.7,-2.8,24.6 -1.7,0.4,24.6 -1.7,0.4,29.6 -1.7,-2.8,29.6 2.5,-2.8,29.6 2.5,0.4,29.6 2.5,0.4,24.6 2.5,-2.8,24.6 2.5,-2.8,24.6 -1.7,-2.8,24.6 -1.7,-2.8,29.6 2.5,-2.8,29.6 2.5,0.4,29.6 -1.7,0.4,29.6 -1.7,0.4,24.6 2.5,0.4,24.6 -1.7,0.4,29.6 2.5,0.4,29.6 2.5,-2.8,29.6 -1.7,-2.8,29.6 -1.7,-2.8,24.6 2.5,-2.8,24.6 2.5,0.4,24.6 -1.7,0.4,24.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.3,-3.6,29.8 -0.3,1.2,29.8 -0.3,1.2,33.8 -0.3,-3.6,33.8 1.1,-3.6,33.8 1.1,1.2,33.8 1.1,1.2,29.8 1.1,-3.6,29.8 1.1,-3.6,29.8 -0.3,-3.6,29.8 -0.3,-3.6,33.8 1.1,-3.6,33.8 1.1,1.2,33.8 -0.3,1.2,33.8 -0.3,1.2,29.8 1.1,1.2,29.8 -0.3,1.2,33.8 1.1,1.2,33.8 1.1,-3.6,33.8 -0.3,-3.6,33.8 -0.3,-3.6,29.8 1.1,-3.6,29.8 1.1,1.2,29.8 -0.3,1.2,29.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.2,-3.5,33.8 -1.2,1.1,33.8 -1.2,1.1,42.6 -1.2,-3.5,42.6 2,-3.5,42.6 2,1.1,42.6 2,1.1,33.8 2,-3.5,33.8 2,-3.5,33.8 -1.2,-3.5,33.8 -1.2,-3.5,42.6 2,-3.5,42.6 2,1.1,42.6 -1.2,1.1,42.6 -1.2,1.1,33.8 2,1.1,33.8 -1.2,1.1,42.6 2,1.1,42.6 2,-3.5,42.6 -1.2,-3.5,42.6 -1.2,-3.5,33.8 2,-3.5,33.8 2,1.1,33.8 -1.2,1.1,33.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.8,-2.1,42.6 -1.8,-0.3,42.6 -1.8,-0.3,48.4 -1.8,-2.1,48.4 2.6,-2.1,48.4 2.6,-0.3,48.4 2.6,-0.3,42.6 2.6,-2.1,42.6 2.6,-2.1,42.6 -1.8,-2.1,42.6 -1.8,-2.1,48.4 2.6,-2.1,48.4 2.6,-0.3,48.4 -1.8,-0.3,48.4 -1.8,-0.3,42.6 2.6,-0.3,42.6 -1.8,-0.3,48.4 2.6,-0.3,48.4 2.6,-2.1,48.4 -1.8,-2.1,48.4 -1.8,-2.1,42.6 2.6,-2.1,42.6 2.6,-0.3,42.6 -1.8,-0.3,42.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2,-3.3,48.4 -2,0.9,48.4 -2,0.9,53.4 -2,-3.3,53.4 2.8,-3.3,53.4 2.8,0.9,53.4 2.8,0.9,48.4 2.8,-3.3,48.4 2.8,-3.3,48.4 -2,-3.3,48.4 -2,-3.3,53.4 2.8,-3.3,53.4 2.8,0.9,53.4 -2,0.9,53.4 -2,0.9,48.4 2.8,0.9,48.4 -2,0.9,53.4 2.8,0.9,53.4 2.8,-3.3,53.4 -2,-3.3,53.4 -2,-3.3,48.4 2.8,-3.3,48.4 2.8,0.9,48.4 -2,0.9,48.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.3,-3,0 -1.3,0.6,0 -1.3,0.6,4 -1.3,-3,4 2.1,-3,4 2.1,0.6,4 2.1,0.6,0 2.1,-3,0 2.1,-3,0 -1.3,-3,0 -1.3,-3,4 2.1,-3,4 2.1,0.6,4 -1.3,0.6,4 -1.3,0.6,0 2.1,0.6,0 -1.3,0.6,4 2.1,0.6,4 2.1,-3,4 -1.3,-3,4 -1.3,-3,0 2.1,-3,0 2.1,0.6,0 -1.3,0.6,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.4,-3.5,4.2 -1.4,1.1,4.2 -1.4,1.1,10 -1.4,-3.5,10 2.2,-3.5,10 2.2,1.1,10 2.2,1.1,4.2 2.2,-3.5,4.2 2.2,-3.5,4.2 -1.4,-3.5,4.2 -1.4,-3.5,10 2.2,-3.5,10 2.2,1.1,10 -1.4,1.1,10 -1.4,1.1,4.2 2.2,1.1,4.2 -1.4,1.1,10 2.2,1.1,10 2.2,-3.5,10 -1.4,-3.5,10 -1.4,-3.5,4.2 2.2,-3.5,4.2 2.2,1.1,4.2 -1.4,1.1,4.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.4,-2.3,10.2 -0.4,-0.0999999999999999,10.2 -0.4,-0.0999999999999999,15.4 -0.4,-2.3,15.4 1.2,-2.3,15.4 1.2,-0.0999999999999999,15.4 1.2,-0.0999999999999999,10.2 1.2,-2.3,10.2 1.2,-2.3,10.2 -0.4,-2.3,10.2 -0.4,-2.3,15.4 1.2,-2.3,15.4 1.2,-0.0999999999999999,15.4 -0.4,-0.0999999999999999,15.4 -0.4,-0.0999999999999999,10.2 1.2,-0.0999999999999999,10.2 -0.4,-0.0999999999999999,15.4 1.2,-0.0999999999999999,15.4 1.2,-2.3,15.4 -0.4,-2.3,15.4 -0.4,-2.3,10.2 1.2,-2.3,10.2 1.2,-0.0999999999999999,10.2 -0.4,-0.0999999999999999,10.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1,-2.3,15.6 -1,-0.0999999999999999,15.6 -1,-0.0999999999999999,20.8 -1,-2.3,20.8 1.8,-2.3,20.8 1.8,-0.0999999999999999,20.8 1.8,-0.0999999999999999,15.6 1.8,-2.3,15.6 1.8,-2.3,15.6 -1,-2.3,15.6 -1,-2.3,20.8 1.8,-2.3,20.8 1.8,-0.0999999999999999,20.8 -1,-0.0999999999999999,20.8 -1,-0.0999999999999999,15.6 1.8,-0.0999999999999999,15.6 -1,-0.0999999999999999,20.8 1.8,-0.0999999999999999,20.8 1.8,-2.3,20.8 -1,-2.3,20.8 -1,-2.3,15.6 1.8,-2.3,15.6 1.8,-0.0999999999999999,15.6 -1,-0.0999999999999999,15.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="0.4,-0.75,20.8 0.4,0.2,20.8 0.4,0.2,20.8 0.4,0.2,22.7 0.4,0.2,22.7 0.4,-0.75,22.7 0.4,-0.75,22.7 0.4,-0.75,20.8 0.010288568297003,-0.975,20.8 -0.812435565298214,-0.5,20.8 -0.812435565298214,-0.5,20.8 -0.812435565298214,-0.5,22.7 -0.812435565298214,-0.5,22.7 0.010288568297003,-0.975,22.7 0.010288568297003,-0.975,22.7 0.010288568297003,-0.975,20.8 0.0102885682970029,-1.425,20.8 -0.812435565298214,-1.9,20.8 -0.812435565298214,-1.9,20.8 -0.812435565298214,-1.9,22.7 -0.812435565298214,-1.9,22.7 0.0102885682970029,-1.425,22.7 0.0102885682970029,-1.425,22.7 0.0102885682970029,-1.425,20.8 0.4,-1.65,20.8 0.4,-2.6,20.8 0.4,-2.6,20.8 0.4,-2.6,22.7 0.4,-2.6,22.7 0.4,-1.65,22.7 0.4,-1.65,22.7 0.4,-1.65,20.8 0.789711431702998,-1.425,20.8 1.61243556529821,-1.9,20.8 1.61243556529821,-1.9,20.8 1.61243556529821,-1.9,22.7 1.61243556529821,-1.9,22.7 0.789711431702998,-1.425,22.7 0.789711431702998,-1.425,22.7 0.789711431702998,-1.425,20.8 0.789711431702998,-0.975,20.8 1.61243556529821,-0.5,20.8 1.61243556529821,-0.5,20.8 1.61243556529821,-0.5,22.7 1.61243556529821,-0.5,22.7 0.789711431702998,-0.975,22.7 0.789711431702998,-0.975,22.7 0.789711431702998,-0.975,20.8 0.4,-0.75,20.8 0.400000000000001,0.2,20.8 0.400000000000001,0.2,20.8 0.400000000000001,0.2,22.7 0.400000000000001,0.2,22.7 0.4,-0.75,22.7 0.4,-0.75,22.7 0.4,-0.75,20.8" TextureCoordinates="0,1 0,0 0,0 0,1 0,1 0,0 0,0 0,1 0.166666666666667,1 0.166666666666667,0 0.166666666666667,0 0.166666666666667,1 0.166666666666667,1 0.166666666666667,0 0.166666666666667,0 0.166666666666667,1 0.333333333333333,1 0.333333333333333,0 0.333333333333333,0 0.333333333333333,1 0.333333333333333,1 0.333333333333333,0 0.333333333333333,0 0.333333333333333,1 0.5,1 0.5,0 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.666666666666667,1 0.666666666666667,0 0.666666666666667,0 0.666666666666667,1 0.666666666666667,1 0.666666666666667,0 0.666666666666667,0 0.666666666666667,1 0.833333333333333,1 0.833333333333333,0 0.833333333333333,0 0.833333333333333,1 0.833333333333333,1 0.833333333333333,0 0.833333333333333,0 0.833333333333333,1 1,1 1,0 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 8 1 8 9 3 2 10 3 10 11 5 4 12 5 12 13 7 6 14 7 14 15 9 8 16 9 16 17 11 10 18 11 18 19 13 12 20 13 20 21 15 14 22 15 22 23 17 16 24 17 24 25 19 18 26 19 26 27 21 20 28 21 28 29 23 22 30 23 30 31 25 24 32 25 32 33 27 26 34 27 34 35 29 28 36 29 36 37 31 30 38 31 38 39 33 32 40 33 40 41 35 34 42 35 42 43 37 36 44 37 44 45 39 38 46 39 46 47 41 40 48 41 48 49 43 42 50 43 50 51 45 44 52 45 52 53 47 46 54 47 54 55 49 48 0 49 0 1 51 50 2 51 2 3 53 52 4 53 4 5 55 54 6 55 6 7" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.8,0,0 -0.8,2.2,0 -0.8,2.2,0 -0.8,7.6,1.8 -0.8,7.6,1.8 -0.8,0,1.8 -0.8,0,0 -2.70525588832577,1.1,0 -2.70525588832577,1.1,0 -7.38179306876173,3.8,1.8 -7.38179306876173,3.8,1.8 -0.8,0,1.8 -0.8,0,0 -2.70525588832577,-1.1,0 -2.70525588832577,-1.1,0 -7.38179306876173,-3.8,1.8 -7.38179306876173,-3.8,1.8 -0.8,0,1.8 -0.8,0,0 -0.8,-2.2,0 -0.8,-2.2,0 -0.800000000000001,-7.6,1.8 -0.800000000000001,-7.6,1.8 -0.8,0,1.8 -0.8,0,0 1.10525588832576,-1.1,0 1.10525588832576,-1.1,0 5.78179306876173,-3.8,1.8 5.78179306876173,-3.8,1.8 -0.8,0,1.8 -0.8,0,0 1.10525588832577,1.1,0 1.10525588832577,1.1,0 5.78179306876173,3.8,1.8 5.78179306876173,3.8,1.8 -0.8,0,1.8 -0.8,0,0 -0.799999999999999,2.2,0 -0.799999999999999,2.2,0 -0.799999999999998,7.6,1.8 -0.799999999999998,7.6,1.8 -0.8,0,1.8" TextureCoordinates="0,0 0,1 0,1 0,0 0,0 0,1 0.166666666666667,0 0.166666666666667,1 0.166666666666667,1 0.166666666666667,0 0.166666666666667,0 0.166666666666667,1 0.333333333333333,0 0.333333333333333,1 0.333333333333333,1 0.333333333333333,0 0.333333333333333,0 0.333333333333333,1 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.666666666666667,0 0.666666666666667,1 0.666666666666667,1 0.666666666666667,0 0.666666666666667,0 0.666666666666667,1 0.833333333333333,0 0.833333333333333,1 0.833333333333333,1 0.833333333333333,0 0.833333333333333,0 0.833333333333333,1 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 6 1 6 7 3 2 8 3 8 9 5 4 10 5 10 11 7 6 12 7 12 13 9 8 14 9 14 15 11 10 16 11 16 17 13 12 18 13 18 19 15 14 20 15 20 21 17 16 22 17 22 23 19 18 24 19 24 25 21 20 26 21 26 27 23 22 28 23 28 29 25 24 30 25 30 31 27 26 32 27 32 33 29 28 34 29 34 35 31 30 36 31 36 37 33 32 38 33 38 39 35 34 40 35 40 41 37 36 0 37 0 1 39 38 2 39 2 3 41 40 4 41 4 5" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.7,-1.8,1.8 -2.7,1.8,1.8 -2.7,1.8,11 -2.7,-1.8,11 1.1,-1.8,11 1.1,1.8,11 1.1,1.8,1.8 1.1,-1.8,1.8 1.1,-1.8,1.8 -2.7,-1.8,1.8 -2.7,-1.8,11 1.1,-1.8,11 1.1,1.8,11 -2.7,1.8,11 -2.7,1.8,1.8 1.1,1.8,1.8 -2.7,1.8,11 1.1,1.8,11 1.1,-1.8,11 -2.7,-1.8,11 -2.7,-1.8,1.8 1.1,-1.8,1.8 1.1,1.8,1.8 -2.7,1.8,1.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.9,-2.4,11 -1.9,2.4,11 -1.9,2.4,20.2 -1.9,-2.4,20.2 0.3,-2.4,20.2 0.3,2.4,20.2 0.3,2.4,11 0.3,-2.4,11 0.3,-2.4,11 -1.9,-2.4,11 -1.9,-2.4,20.2 0.3,-2.4,20.2 0.3,2.4,20.2 -1.9,2.4,20.2 -1.9,2.4,11 0.3,2.4,11 -1.9,2.4,20.2 0.3,2.4,20.2 0.3,-2.4,20.2 -1.9,-2.4,20.2 -1.9,-2.4,11 0.3,-2.4,11 0.3,2.4,11 -1.9,2.4,11" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.2,-1.4,20.4 -2.2,1.4,20.4 -2.2,1.4,30.2 -2.2,-1.4,30.2 0.6,-1.4,30.2 0.6,1.4,30.2 0.6,1.4,20.4 0.6,-1.4,20.4 0.6,-1.4,20.4 -2.2,-1.4,20.4 -2.2,-1.4,30.2 0.6,-1.4,30.2 0.6,1.4,30.2 -2.2,1.4,30.2 -2.2,1.4,20.4 0.6,1.4,20.4 -2.2,1.4,30.2 0.6,1.4,30.2 0.6,-1.4,30.2 -2.2,-1.4,30.2 -2.2,-1.4,20.4 0.6,-1.4,20.4 0.6,1.4,20.4 -2.2,1.4,20.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.4,-0.6,30.4 -2.4,0.6,30.4 -2.4,0.6,35.6 -2.4,-0.6,35.6 0.8,-0.6,35.6 0.8,0.6,35.6 0.8,0.6,30.4 0.8,-0.6,30.4 0.8,-0.6,30.4 -2.4,-0.6,30.4 -2.4,-0.6,35.6 0.8,-0.6,35.6 0.8,0.6,35.6 -2.4,0.6,35.6 -2.4,0.6,30.4 0.8,0.6,30.4 -2.4,0.6,35.6 0.8,0.6,35.6 0.8,-0.6,35.6 -2.4,-0.6,35.6 -2.4,-0.6,30.4 0.8,-0.6,30.4 0.8,0.6,30.4 -2.4,0.6,30.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.6,-0.7,35.8 -1.6,0.7,35.8 -1.6,0.7,40.8 -1.6,-0.7,40.8 2.22044604925031E-16,-0.7,40.8 2.22044604925031E-16,0.7,40.8 2.22044604925031E-16,0.7,35.8 2.22044604925031E-16,-0.7,35.8 2.22044604925031E-16,-0.7,35.8 -1.6,-0.7,35.8 -1.6,-0.7,40.8 2.22044604925031E-16,-0.7,40.8 2.22044604925031E-16,0.7,40.8 -1.6,0.7,40.8 -1.6,0.7,35.8 2.22044604925031E-16,0.7,35.8 -1.6,0.7,40.8 2.22044604925031E-16,0.7,40.8 2.22044604925031E-16,-0.7,40.8 -1.6,-0.7,40.8 -1.6,-0.7,35.8 2.22044604925031E-16,-0.7,35.8 2.22044604925031E-16,0.7,35.8 -1.6,0.7,35.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.6,-1.3,41 -1.6,1.3,41 -1.6,1.3,49.4 -1.6,-1.3,49.4 2.22044604925031E-16,-1.3,49.4 2.22044604925031E-16,1.3,49.4 2.22044604925031E-16,1.3,41 2.22044604925031E-16,-1.3,41 2.22044604925031E-16,-1.3,41 -1.6,-1.3,41 -1.6,-1.3,49.4 2.22044604925031E-16,-1.3,49.4 2.22044604925031E-16,1.3,49.4 -1.6,1.3,49.4 -1.6,1.3,41 2.22044604925031E-16,1.3,41 -1.6,1.3,49.4 2.22044604925031E-16,1.3,49.4 2.22044604925031E-16,-1.3,49.4 -1.6,-1.3,49.4 -1.6,-1.3,41 2.22044604925031E-16,-1.3,41 2.22044604925031E-16,1.3,41 -1.6,1.3,41" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.6,-0.8,49.6 -2.6,0.8,49.6 -2.6,0.8,56.2 -2.6,-0.8,56.2 1,-0.8,56.2 1,0.8,56.2 1,0.8,49.6 1,-0.8,49.6 1,-0.8,49.6 -2.6,-0.8,49.6 -2.6,-0.8,56.2 1,-0.8,56.2 1,0.8,56.2 -2.6,0.8,56.2 -2.6,0.8,49.6 1,0.8,49.6 -2.6,0.8,56.2 1,0.8,56.2 1,-0.8,56.2 -2.6,-0.8,56.2 -2.6,-0.8,49.6 1,-0.8,49.6 1,0.8,49.6 -2.6,0.8,49.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.3,0.5,0 -2.3,1.9,0 -2.3,1.9,9.6 -2.3,0.5,9.6 1.5,0.5,9.6 1.5,1.9,9.6 1.5,1.9,0 1.5,0.5,0 1.5,0.5,0 -2.3,0.5,0 -2.3,0.5,9.6 1.5,0.5,9.6 1.5,1.9,9.6 -2.3,1.9,9.6 -2.3,1.9,0 1.5,1.9,0 -2.3,1.9,9.6 1.5,1.9,9.6 1.5,0.5,9.6 -2.3,0.5,9.6 -2.3,0.5,0 1.5,0.5,0 1.5,1.9,0 -2.3,1.9,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.1,-0.2,9.8 -2.1,2.6,9.8 -2.1,2.6,14.2 -2.1,-0.2,14.2 1.3,-0.2,14.2 1.3,2.6,14.2 1.3,2.6,9.8 1.3,-0.2,9.8 1.3,-0.2,9.8 -2.1,-0.2,9.8 -2.1,-0.2,14.2 1.3,-0.2,14.2 1.3,2.6,14.2 -2.1,2.6,14.2 -2.1,2.6,9.8 1.3,2.6,9.8 -2.1,2.6,14.2 1.3,2.6,14.2 1.3,-0.2,14.2 -2.1,-0.2,14.2 -2.1,-0.2,9.8 1.3,-0.2,9.8 1.3,2.6,9.8 -2.1,2.6,9.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.3,0.5,14.2 -1.3,1.9,14.2 -1.3,1.9,23.8 -1.3,0.5,23.8 0.5,0.5,23.8 0.5,1.9,23.8 0.5,1.9,14.2 0.5,0.5,14.2 0.5,0.5,14.2 -1.3,0.5,14.2 -1.3,0.5,23.8 0.5,0.5,23.8 0.5,1.9,23.8 -1.3,1.9,23.8 -1.3,1.9,14.2 0.5,1.9,14.2 -1.3,1.9,23.8 0.5,1.9,23.8 0.5,0.5,23.8 -1.3,0.5,23.8 -1.3,0.5,14.2 0.5,0.5,14.2 0.5,1.9,14.2 -1.3,1.9,14.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.9,-0.2,23.8 -0.9,2.6,23.8 -0.9,2.6,32.4 -0.9,-0.2,32.4 0.1,-0.2,32.4 0.1,2.6,32.4 0.1,2.6,23.8 0.1,-0.2,23.8 0.1,-0.2,23.8 -0.9,-0.2,23.8 -0.9,-0.2,32.4 0.1,-0.2,32.4 0.1,2.6,32.4 -0.9,2.6,32.4 -0.9,2.6,23.8 0.1,2.6,23.8 -0.9,2.6,32.4 0.1,2.6,32.4 0.1,-0.2,32.4 -0.9,-0.2,32.4 -0.9,-0.2,23.8 0.1,-0.2,23.8 0.1,2.6,23.8 -0.9,2.6,23.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.7,-0.9,32.4 -1.7,3.3,32.4 -1.7,3.3,39 -1.7,-0.9,39 0.9,-0.9,39 0.9,3.3,39 0.9,3.3,32.4 0.9,-0.9,32.4 0.9,-0.9,32.4 -1.7,-0.9,32.4 -1.7,-0.9,39 0.9,-0.9,39 0.9,3.3,39 -1.7,3.3,39 -1.7,3.3,32.4 0.9,3.3,32.4 -1.7,3.3,39 0.9,3.3,39 0.9,-0.9,39 -1.7,-0.9,39 -1.7,-0.9,32.4 0.9,-0.9,32.4 0.9,3.3,32.4 -1.7,3.3,32.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.9,-0.8,39.2 -1.9,3.2,39.2 -1.9,3.2,48 -1.9,-0.8,48 1.1,-0.8,48 1.1,3.2,48 1.1,3.2,39.2 1.1,-0.8,39.2 1.1,-0.8,39.2 -1.9,-0.8,39.2 -1.9,-0.8,48 1.1,-0.8,48 1.1,3.2,48 -1.9,3.2,48 -1.9,3.2,39.2 1.1,3.2,39.2 -1.9,3.2,48 1.1,3.2,48 1.1,-0.8,48 -1.9,-0.8,48 -1.9,-0.8,39.2 1.1,-0.8,39.2 1.1,3.2,39.2 -1.9,3.2,39.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.3,-0.3,48.2 -1.3,2.7,48.2 -1.3,2.7,55.2 -1.3,-0.3,55.2 0.5,-0.3,55.2 0.5,2.7,55.2 0.5,2.7,48.2 0.5,-0.3,48.2 0.5,-0.3,48.2 -1.3,-0.3,48.2 -1.3,-0.3,55.2 0.5,-0.3,55.2 0.5,2.7,55.2 -1.3,2.7,55.2 -1.3,2.7,48.2 0.5,2.7,48.2 -1.3,2.7,55.2 0.5,2.7,55.2 0.5,-0.3,55.2 -1.3,-0.3,55.2 -1.3,-0.3,48.2 0.5,-0.3,48.2 0.5,2.7,48.2 -1.3,2.7,48.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.9,-0.0999999999999999,55.2 -1.9,2.5,55.2 -1.9,2.5,59.6 -1.9,-0.0999999999999999,59.6 1.1,-0.0999999999999999,59.6 1.1,2.5,59.6 1.1,2.5,55.2 1.1,-0.0999999999999999,55.2 1.1,-0.0999999999999999,55.2 -1.9,-0.0999999999999999,55.2 -1.9,-0.0999999999999999,59.6 1.1,-0.0999999999999999,59.6 1.1,2.5,59.6 -1.9,2.5,59.6 -1.9,2.5,55.2 1.1,2.5,55.2 -1.9,2.5,59.6 1.1,2.5,59.6 1.1,-0.0999999999999999,59.6 -1.9,-0.0999999999999999,59.6 -1.9,-0.0999999999999999,55.2 1.1,-0.0999999999999999,55.2 1.1,2.5,55.2 -1.9,2.5,55.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.5,-0.9,59.6 -2.5,3.3,59.6 -2.5,3.3,65 -2.5,-0.9,65 1.7,-0.9,65 1.7,3.3,65 1.7,3.3,59.6 1.7,-0.9,59.6 1.7,-0.9,59.6 -2.5,-0.9,59.6 -2.5,-0.9,65 1.7,-0.9,65 1.7,3.3,65 -2.5,3.3,65 -2.5,3.3,59.6 1.7,3.3,59.6 -2.5,3.3,65 1.7,3.3,65 1.7,-0.9,65 -2.5,-0.9,65 -2.5,-0.9,59.6 1.7,-0.9,59.6 1.7,3.3,59.6 -2.5,3.3,59.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.4,-2.6,0 -2.4,1,0 -2.4,1,6 -2.4,-2.6,6 0.8,-2.6,6 0.8,1,6 0.8,1,0 0.8,-2.6,0 0.8,-2.6,0 -2.4,-2.6,0 -2.4,-2.6,6 0.8,-2.6,6 0.8,1,6 -2.4,1,6 -2.4,1,0 0.8,1,0 -2.4,1,6 0.8,1,6 0.8,-2.6,6 -2.4,-2.6,6 -2.4,-2.6,0 0.8,-2.6,0 0.8,1,0 -2.4,1,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.6,-2.6,6.2 -1.6,1,6.2 -1.6,1,11 -1.6,-2.6,11 2.22044604925031E-16,-2.6,11 2.22044604925031E-16,1,11 2.22044604925031E-16,1,6.2 2.22044604925031E-16,-2.6,6.2 2.22044604925031E-16,-2.6,6.2 -1.6,-2.6,6.2 -1.6,-2.6,11 2.22044604925031E-16,-2.6,11 2.22044604925031E-16,1,11 -1.6,1,11 -1.6,1,6.2 2.22044604925031E-16,1,6.2 -1.6,1,11 2.22044604925031E-16,1,11 2.22044604925031E-16,-2.6,11 -1.6,-2.6,11 -1.6,-2.6,6.2 2.22044604925031E-16,-2.6,6.2 2.22044604925031E-16,1,6.2 -1.6,1,6.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.5,-3.1,11 -1.5,1.5,11 -1.5,1.5,16.8 -1.5,-3.1,16.8 -0.0999999999999999,-3.1,16.8 -0.0999999999999999,1.5,16.8 -0.0999999999999999,1.5,11 -0.0999999999999999,-3.1,11 -0.0999999999999999,-3.1,11 -1.5,-3.1,11 -1.5,-3.1,16.8 -0.0999999999999999,-3.1,16.8 -0.0999999999999999,1.5,16.8 -1.5,1.5,16.8 -1.5,1.5,11 -0.0999999999999999,1.5,11 -1.5,1.5,16.8 -0.0999999999999999,1.5,16.8 -0.0999999999999999,-3.1,16.8 -1.5,-3.1,16.8 -1.5,-3.1,11 -0.0999999999999999,-3.1,11 -0.0999999999999999,1.5,11 -1.5,1.5,11" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.5,-3.1,17 -1.5,1.5,17 -1.5,1.5,23.4 -1.5,-3.1,23.4 -0.0999999999999999,-3.1,23.4 -0.0999999999999999,1.5,23.4 -0.0999999999999999,1.5,17 -0.0999999999999999,-3.1,17 -0.0999999999999999,-3.1,17 -1.5,-3.1,17 -1.5,-3.1,23.4 -0.0999999999999999,-3.1,23.4 -0.0999999999999999,1.5,23.4 -1.5,1.5,23.4 -1.5,1.5,17 -0.0999999999999999,1.5,17 -1.5,1.5,23.4 -0.0999999999999999,1.5,23.4 -0.0999999999999999,-3.1,23.4 -1.5,-3.1,23.4 -1.5,-3.1,17 -0.0999999999999999,-3.1,17 -0.0999999999999999,1.5,17 -1.5,1.5,17" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-3,-3.2,23.6 -3,1.6,23.6 -3,1.6,29.8 -3,-3.2,29.8 1.4,-3.2,29.8 1.4,1.6,29.8 1.4,1.6,23.6 1.4,-3.2,23.6 1.4,-3.2,23.6 -3,-3.2,23.6 -3,-3.2,29.8 1.4,-3.2,29.8 1.4,1.6,29.8 -3,1.6,29.8 -3,1.6,23.6 1.4,1.6,23.6 -3,1.6,29.8 1.4,1.6,29.8 1.4,-3.2,29.8 -3,-3.2,29.8 -3,-3.2,23.6 1.4,-3.2,23.6 1.4,1.6,23.6 -3,1.6,23.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.5,-1.3,30 -2.5,-0.3,30 -2.5,-0.3,37.6 -2.5,-1.3,37.6 0.9,-1.3,37.6 0.9,-0.3,37.6 0.9,-0.3,30 0.9,-1.3,30 0.9,-1.3,30 -2.5,-1.3,30 -2.5,-1.3,37.6 0.9,-1.3,37.6 0.9,-0.3,37.6 -2.5,-0.3,37.6 -2.5,-0.3,30 0.9,-0.3,30 -2.5,-0.3,37.6 0.9,-0.3,37.6 0.9,-1.3,37.6 -2.5,-1.3,37.6 -2.5,-1.3,30 0.9,-1.3,30 0.9,-0.3,30 -2.5,-0.3,30" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 -0.8,-0.8,40.84 0.1,-0.8,40.598845726812 -0.11056000119292,-0.221491151282115,40.598845726812 -0.643716640099762,0.0863269777109873,40.598845726812 -1.25,-0.0205771365940051,40.598845726812 -1.64572335870732,-0.492181871006898,40.598845726812 -1.64572335870732,-1.1078181289931,40.598845726812 -1.25,-1.57942286340599,40.598845726812 -0.643716640099763,-1.68632697771099,40.598845726812 -0.11056000119292,-1.37850884871789,40.598845726812 0.1,-0.8,40.598845726812 0.75884572681199,-0.8,39.94 0.394145106704089,0.202006718607555,39.94 -0.529309280275216,0.735163357514398,39.94 -1.57942286340599,0.55,39.94 -2.26483582642887,-0.266843361093157,39.94 -2.26483582642887,-1.33315663890684,39.94 -1.579422863406,-2.15,39.94 -0.529309280275217,-2.3351633575144,39.94 0.394145106704089,-1.80200671860756,39.94 0.75884572681199,-0.8,39.94 1,-0.8,39.04 0.578879997614161,0.357017697435771,39.04 -0.487433280199525,0.972653955421975,39.04 -1.7,0.75884572681199,39.04 -2.49144671741464,-0.184363742013796,39.04 -2.49144671741464,-1.4156362579862,39.04 -1.7,-2.35884572681199,39.04 -0.487433280199526,-2.57265395542197,39.04 0.57887999761416,-1.95701769743577,39.04 1,-0.8,39.04 0.75884572681199,-0.8,38.14 0.394145106704089,0.202006718607555,38.14 -0.529309280275216,0.735163357514398,38.14 -1.57942286340599,0.55,38.14 -2.26483582642887,-0.266843361093157,38.14 -2.26483582642887,-1.33315663890684,38.14 -1.579422863406,-2.15,38.14 -0.529309280275217,-2.3351633575144,38.14 0.394145106704089,-1.80200671860756,38.14 0.75884572681199,-0.8,38.14 0.100000000000001,-0.8,37.481154273188 -0.110560001192919,-0.221491151282114,37.481154273188 -0.643716640099762,0.086326977710988,37.481154273188 -1.25,-0.0205771365940045,37.481154273188 -1.64572335870732,-0.492181871006898,37.481154273188 -1.64572335870732,-1.1078181289931,37.481154273188 -1.25,-1.57942286340599,37.481154273188 -0.643716640099763,-1.68632697771099,37.481154273188 -0.110560001192919,-1.37850884871789,37.481154273188 0.100000000000001,-0.8,37.481154273188 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24 -0.8,-0.8,37.24" Normals="0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0.5,0,0.866025403784439 0.383022221559489,0.32139380484327,0.866025403784439 0.0868240888334652,0.492403876506104,0.866025403784439 -0.25,0.433012701892219,0.866025403784439 -0.469846310392954,0.171010071662834,0.866025403784439 -0.469846310392954,-0.171010071662834,0.866025403784439 -0.25,-0.433012701892219,0.866025403784439 0.086824088833465,-0.492403876506104,0.866025403784439 0.383022221559489,-0.32139380484327,0.866025403784439 0.5,-1.22460635382238E-16,0.866025403784439 0.866025403784439,0,0.5 0.663413948168938,0.556670399226419,0.5 0.150383733180435,0.852868531952443,0.5 -0.433012701892219,0.75,0.5 -0.813797681349374,0.296198132726024,0.5 -0.813797681349374,-0.296198132726024,0.5 -0.43301270189222,-0.75,0.5 0.150383733180435,-0.852868531952443,0.5 0.663413948168938,-0.55667039922642,0.5 0.866025403784439,-2.12108042409203E-16,0.5 1,0,6.12303176911189E-17 0.766044443118978,0.642787609686539,6.12303176911189E-17 0.17364817766693,0.984807753012208,6.12303176911189E-17 -0.5,0.866025403784439,6.12303176911189E-17 -0.939692620785908,0.342020143325669,6.12303176911189E-17 -0.939692620785908,-0.342020143325669,6.12303176911189E-17 -0.5,-0.866025403784438,6.12303176911189E-17 0.17364817766693,-0.984807753012208,6.12303176911189E-17 0.766044443118978,-0.64278760968654,6.12303176911189E-17 1,-2.44921270764475E-16,6.12303176911189E-17 0.866025403784439,0,-0.5 0.663413948168938,0.556670399226419,-0.5 0.150383733180435,0.852868531952443,-0.5 -0.433012701892219,0.75,-0.5 -0.813797681349374,0.296198132726024,-0.5 -0.813797681349374,-0.296198132726024,-0.5 -0.43301270189222,-0.75,-0.5 0.150383733180435,-0.852868531952443,-0.5 0.663413948168938,-0.55667039922642,-0.5 0.866025403784439,-2.12108042409203E-16,-0.5 0.5,0,-0.866025403784438 0.383022221559489,0.32139380484327,-0.866025403784438 0.0868240888334653,0.492403876506104,-0.866025403784438 -0.25,0.43301270189222,-0.866025403784438 -0.469846310392954,0.171010071662835,-0.866025403784438 -0.469846310392955,-0.171010071662834,-0.866025403784438 -0.25,-0.433012701892219,-0.866025403784438 0.086824088833465,-0.492403876506104,-0.866025403784438 0.383022221559489,-0.32139380484327,-0.866025403784438 0.5,-1.22460635382238E-16,-0.866025403784438 1.22460635382238E-16,0,-1 9.38102892353825E-17,7.87161790980434E-17,-1 2.126506617006E-17,1.20600183163229E-16,-1 -6.12303176911188E-17,1.06054021204601E-16,-1 -1.15075355405442E-16,4.18840040651854E-17,-1 -1.15075355405443E-16,-4.18840040651854E-17,-1 -6.12303176911189E-17,-1.06054021204601E-16,-1 2.12650661700599E-17,-1.20600183163229E-16,-1 9.38102892353825E-17,-7.87161790980435E-17,-1 1.22460635382238E-16,-2.99932144364427E-32,-1" TextureCoordinates="0,0 0.111111111111111,0 0.222222222222222,0 0.333333333333333,0 0.444444444444444,0 0.555555555555556,0 0.666666666666667,0 0.777777777777778,0 0.888888888888889,0 1,0 0,0.166666666666667 0.111111111111111,0.166666666666667 0.222222222222222,0.166666666666667 0.333333333333333,0.166666666666667 0.444444444444444,0.166666666666667 0.555555555555556,0.166666666666667 0.666666666666667,0.166666666666667 0.777777777777778,0.166666666666667 0.888888888888889,0.166666666666667 1,0.166666666666667 0,0.333333333333333 0.111111111111111,0.333333333333333 0.222222222222222,0.333333333333333 0.333333333333333,0.333333333333333 0.444444444444444,0.333333333333333 0.555555555555556,0.333333333333333 0.666666666666667,0.333333333333333 0.777777777777778,0.333333333333333 0.888888888888889,0.333333333333333 1,0.333333333333333 0,0.5 0.111111111111111,0.5 0.222222222222222,0.5 0.333333333333333,0.5 0.444444444444444,0.5 0.555555555555556,0.5 0.666666666666667,0.5 0.777777777777778,0.5 0.888888888888889,0.5 1,0.5 0,0.666666666666667 0.111111111111111,0.666666666666667 0.222222222222222,0.666666666666667 0.333333333333333,0.666666666666667 0.444444444444444,0.666666666666667 0.555555555555556,0.666666666666667 0.666666666666667,0.666666666666667 0.777777777777778,0.666666666666667 0.888888888888889,0.666666666666667 1,0.666666666666667 0,0.833333333333333 0.111111111111111,0.833333333333333 0.222222222222222,0.833333333333333 0.333333333333333,0.833333333333333 0.444444444444444,0.833333333333333 0.555555555555556,0.833333333333333 0.666666666666667,0.833333333333333 0.777777777777778,0.833333333333333 0.888888888888889,0.833333333333333 1,0.833333333333333 0,1 0.111111111111111,1 0.222222222222222,1 0.333333333333333,1 0.444444444444444,1 0.555555555555556,1 0.666666666666667,1 0.777777777777778,1 0.888888888888889,1 1,1" TriangleIndices="11 0 10 12 1 11 13 2 12 14 3 13 15 4 14 16 5 15 17 6 16 18 7 17 19 8 18 10 21 11 21 10 20 11 22 12 22 11 21 12 23 13 23 12 22 13 24 14 24 13 23 14 25 15 25 14 24 15 26 16 26 15 25 16 27 17 27 16 26 17 28 18 28 17 27 18 29 19 29 18 28 20 31 21 31 20 30 21 32 22 32 21 31 22 33 23 33 22 32 23 34 24 34 23 33 24 35 25 35 24 34 25 36 26 36 25 35 26 37 27 37 26 36 27 38 28 38 27 37 28 39 29 39 28 38 30 41 31 41 30 40 31 42 32 42 31 41 32 43 33 43 32 42 33 44 34 44 33 43 34 45 35 45 34 44 35 46 36 46 35 45 36 47 37 47 36 46 37 48 38 48 37 47 38 49 39 49 38 48 40 51 41 51 40 50 41 52 42 52 41 51 42 53 43 53 42 52 43 54 44 54 43 53 44 55 45 55 44 54 45 56 46 56 45 55 46 57 47 57 46 56 47 58 48 58 47 57 48 59 49 59 48 58 50 61 51 51 62 52 52 63 53 53 64 54 54 65 55 55 66 56 56 67 57 57 68 58 58 69 59" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.6,-3.2,41.04 -2.6,1.6,41.04 -2.6,1.6,50.04 -2.6,-3.2,50.04 1,-3.2,50.04 1,1.6,50.04 1,1.6,41.04 1,-3.2,41.04 1,-3.2,41.04 -2.6,-3.2,41.04 -2.6,-3.2,50.04 1,-3.2,50.04 1,1.6,50.04 -2.6,1.6,50.04 -2.6,1.6,41.04 1,1.6,41.04 -2.6,1.6,50.04 1,1.6,50.04 1,-3.2,50.04 -2.6,-3.2,50.04 -2.6,-3.2,41.04 1,-3.2,41.04 1,1.6,41.04 -2.6,1.6,41.04" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.4,-1.7,50.04 -1.4,0.1,50.04 -1.4,0.1,56.24 -1.4,-1.7,56.24 -0.2,-1.7,56.24 -0.2,0.1,56.24 -0.2,0.1,50.04 -0.2,-1.7,50.04 -0.2,-1.7,50.04 -1.4,-1.7,50.04 -1.4,-1.7,56.24 -0.2,-1.7,56.24 -0.2,0.1,56.24 -1.4,0.1,56.24 -1.4,0.1,50.04 -0.2,0.1,50.04 -1.4,0.1,56.24 -0.2,0.1,56.24 -0.2,-1.7,56.24 -1.4,-1.7,56.24 -1.4,-1.7,50.04 -0.2,-1.7,50.04 -0.2,0.1,50.04 -1.4,0.1,50.04" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.8,-0.45,56.24 -0.8,0.2,56.24 -0.8,0.2,56.24 -0.8,0.2,57.14 -0.8,0.2,57.14 -0.8,-0.45,57.14 -0.8,-0.45,57.14 -0.8,-0.45,56.24 -1.04748737341529,-0.552512626584708,56.24 -1.50710678118655,-0.0928932188134523,56.24 -1.50710678118655,-0.0928932188134523,56.24 -1.50710678118655,-0.0928932188134523,57.14 -1.50710678118655,-0.0928932188134523,57.14 -1.04748737341529,-0.552512626584708,57.14 -1.04748737341529,-0.552512626584708,57.14 -1.04748737341529,-0.552512626584708,56.24 -1.15,-0.8,56.24 -1.8,-0.8,56.24 -1.8,-0.8,56.24 -1.8,-0.8,57.14 -1.8,-0.8,57.14 -1.15,-0.8,57.14 -1.15,-0.8,57.14 -1.15,-0.8,56.24 -1.04748737341529,-1.04748737341529,56.24 -1.50710678118655,-1.50710678118655,56.24 -1.50710678118655,-1.50710678118655,56.24 -1.50710678118655,-1.50710678118655,57.14 -1.50710678118655,-1.50710678118655,57.14 -1.04748737341529,-1.04748737341529,57.14 -1.04748737341529,-1.04748737341529,57.14 -1.04748737341529,-1.04748737341529,56.24 -0.8,-1.15,56.24 -0.8,-1.8,56.24 -0.8,-1.8,56.24 -0.8,-1.8,57.14 -0.8,-1.8,57.14 -0.8,-1.15,57.14 -0.8,-1.15,57.14 -0.8,-1.15,56.24 -0.552512626584708,-1.04748737341529,56.24 -0.0928932188134524,-1.50710678118655,56.24 -0.0928932188134524,-1.50710678118655,56.24 -0.0928932188134524,-1.50710678118655,57.14 -0.0928932188134524,-1.50710678118655,57.14 -0.552512626584708,-1.04748737341529,57.14 -0.552512626584708,-1.04748737341529,57.14 -0.552512626584708,-1.04748737341529,56.24 -0.45,-0.8,56.24 0.2,-0.8,56.24 0.2,-0.8,56.24 0.2,-0.8,57.14 0.2,-0.8,57.14 -0.45,-0.8,57.14 -0.45,-0.8,57.14 -0.45,-0.8,56.24 -0.552512626584708,-0.552512626584708,56.24 -0.0928932188134521,-0.0928932188134525,56.24 -0.0928932188134521,-0.0928932188134525,56.24 -0.0928932188134521,-0.0928932188134525,57.14 -0.0928932188134521,-0.0928932188134525,57.14 -0.552512626584708,-0.552512626584708,57.14 -0.552512626584708,-0.552512626584708,57.14 -0.552512626584708,-0.552512626584708,56.24 -0.8,-0.45,56.24 -0.8,0.2,56.24 -0.8,0.2,56.24 -0.8,0.2,57.14 -0.8,0.2,57.14 -0.8,-0.45,57.14 -0.8,-0.45,57.14 -0.8,-0.45,56.24" TextureCoordinates="0,1 0,0 0,0 0,1 0,1 0,0 0,0 0,1 0.125,1 0.125,0 0.125,0 0.125,1 0.125,1 0.125,0 0.125,0 0.125,1 0.25,1 0.25,0 0.25,0 0.25,1 0.25,1 0.25,0 0.25,0 0.25,1 0.375,1 0.375,0 0.375,0 0.375,1 0.375,1 0.375,0 0.375,0 0.375,1 0.5,1 0.5,0 0.5,0 0.5,1 0.5,1 0.5,0 0.5,0 0.5,1 0.625,1 0.625,0 0.625,0 0.625,1 0.625,1 0.625,0 0.625,0 0.625,1 0.75,1 0.75,0 0.75,0 0.75,1 0.75,1 0.75,0 0.75,0 0.75,1 0.875,1 0.875,0 0.875,0 0.875,1 0.875,1 0.875,0 0.875,0 0.875,1 1,1 1,0 1,0 1,1 1,1 1,0 1,0 1,1" TriangleIndices="1 0 8 1 8 9 3 2 10 3 10 11 5 4 12 5 12 13 7 6 14 7 14 15 9 8 16 9 16 17 11 10 18 11 18 19 13 12 20 13 20 21 15 14 22 15 22 23 17 16 24 17 24 25 19 18 26 19 26 27 21 20 28 21 28 29 23 22 30 23 30 31 25 24 32 25 32 33 27 26 34 27 34 35 29 28 36 29 36 37 31 30 38 31 38 39 33 32 40 33 40 41 35 34 42 35 42 43 37 36 44 37 44 45 39 38 46 39 46 47 41 40 48 41 48 49 43 42 50 43 50 51 45 44 52 45 52 53 47 46 54 47 54 55 49 48 56 49 56 57 51 50 58 51 58 59 53 52 60 53 60 61 55 54 62 55 62 63 57 56 64 57 64 65 59 58 66 59 66 67 61 60 68 61 68 69 63 62 70 63 70 71 65 64 0 65 0 1 67 66 2 67 2 3 69 68 4 69 4 5 71 70 6 71 6 7" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/3.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.9,-0.9,0 -0.9,3.3,0 -0.9,3.3,8.8 -0.9,-0.9,8.8 0.1,-0.9,8.8 0.1,3.3,8.8 0.1,3.3,0 0.1,-0.9,0 0.1,-0.9,0 -0.9,-0.9,0 -0.9,-0.9,8.8 0.1,-0.9,8.8 0.1,3.3,8.8 -0.9,3.3,8.8 -0.9,3.3,0 0.1,3.3,0 -0.9,3.3,8.8 0.1,3.3,8.8 0.1,-0.9,8.8 -0.9,-0.9,8.8 -0.9,-0.9,0 0.1,-0.9,0 0.1,3.3,0 -0.9,3.3,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.9,-1.2,8.8 -1.9,3.6,8.8 -1.9,3.6,13 -1.9,-1.2,13 1.1,-1.2,13 1.1,3.6,13 1.1,3.6,8.8 1.1,-1.2,8.8 1.1,-1.2,8.8 -1.9,-1.2,8.8 -1.9,-1.2,13 1.1,-1.2,13 1.1,3.6,13 -1.9,3.6,13 -1.9,3.6,8.8 1.1,3.6,8.8 -1.9,3.6,13 1.1,3.6,13 1.1,-1.2,13 -1.9,-1.2,13 -1.9,-1.2,8.8 1.1,-1.2,8.8 1.1,3.6,8.8 -1.9,3.6,8.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.4,1.2,15 -0.4,1.2,15 -0.4,1.2,15 -0.4,1.2,15 -0.4,1.2,15 -0.4,1.2,15 0.307106781186548,1.2,14.7071067811865 -0.181491987775589,1.87249851196396,14.7071067811865 -0.972061402817684,1.61562693777745,14.7071067811865 -0.972061402817684,0.784373062222547,14.7071067811865 -0.18149198777559,0.527501488036043,14.7071067811865 0.307106781186548,1.2,14.7071067811865 0.6,1.2,14 -0.0909830056250525,2.15105651629515,14 -1.20901699437495,1.78778525229247,14 -1.20901699437495,0.612214747707527,14 -0.0909830056250527,0.248943483704847,14 0.6,1.2,14 0.307106781186548,1.2,13.2928932188135 -0.181491987775589,1.87249851196396,13.2928932188135 -0.972061402817684,1.61562693777745,13.2928932188135 -0.972061402817684,0.784373062222547,13.2928932188135 -0.18149198777559,0.527501488036043,13.2928932188135 0.307106781186548,1.2,13.2928932188135 -0.4,1.2,13 -0.4,1.2,13 -0.4,1.2,13 -0.4,1.2,13 -0.4,1.2,13 -0.4,1.2,13" Normals="0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0.707106781186547,0,0.707106781186548 0.218508012224411,0.672498511963957,0.707106781186548 -0.572061402817684,0.415626937777453,0.707106781186548 -0.572061402817684,-0.415626937777453,0.707106781186548 0.21850801222441,-0.672498511963957,0.707106781186548 0.707106781186547,-1.73185491414387E-16,0.707106781186548 1,0,6.12303176911189E-17 0.309016994374947,0.951056516295154,6.12303176911189E-17 -0.809016994374947,0.587785252292473,6.12303176911189E-17 -0.809016994374948,-0.587785252292473,6.12303176911189E-17 0.309016994374947,-0.951056516295154,6.12303176911189E-17 1,-2.44921270764475E-16,6.12303176911189E-17 0.707106781186548,0,-0.707106781186547 0.218508012224411,0.672498511963957,-0.707106781186547 -0.572061402817684,0.415626937777454,-0.707106781186547 -0.572061402817684,-0.415626937777453,-0.707106781186547 0.21850801222441,-0.672498511963957,-0.707106781186547 0.707106781186548,-1.73185491414387E-16,-0.707106781186547 1.22460635382238E-16,0,-1 3.78424174750654E-17,1.16466985269922E-16,-1 -9.90727351661843E-17,7.19805554640452E-17,-1 -9.90727351661843E-17,-7.19805554640451E-17,-1 3.78424174750654E-17,-1.16466985269922E-16,-1 1.22460635382238E-16,-2.99932144364427E-32,-1" TextureCoordinates="0,0 0.2,0 0.4,0 0.6,0 0.8,0 1,0 0,0.25 0.2,0.25 0.4,0.25 0.6,0.25 0.8,0.25 1,0.25 0,0.5 0.2,0.5 0.4,0.5 0.6,0.5 0.8,0.5 1,0.5 0,0.75 0.2,0.75 0.4,0.75 0.6,0.75 0.8,0.75 1,0.75 0,1 0.2,1 0.4,1 0.6,1 0.8,1 1,1" TriangleIndices="7 0 6 8 1 7 9 2 8 10 3 9 11 4 10 6 13 7 13 6 12 7 14 8 14 7 13 8 15 9 15 8 14 9 16 10 16 9 15 10 17 11 17 10 16 12 19 13 19 12 18 13 20 14 20 13 19 14 21 15 21 14 20 15 22 16 22 15 21 16 23 17 23 16 22 18 25 19 19 26 20 20 27 21 21 28 22 22 29 23" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.8,0.6,15.2 -2.8,1.8,15.2 -2.8,1.8,20.6 -2.8,0.6,20.6 2,0.6,20.6 2,1.8,20.6 2,1.8,15.2 2,0.6,15.2 2,0.6,15.2 -2.8,0.6,15.2 -2.8,0.6,20.6 2,0.6,20.6 2,1.8,20.6 -2.8,1.8,20.6 -2.8,1.8,15.2 2,1.8,15.2 -2.8,1.8,20.6 2,1.8,20.6 2,0.6,20.6 -2.8,0.6,20.6 -2.8,0.6,15.2 2,0.6,15.2 2,1.8,15.2 -2.8,1.8,15.2" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.4,-0.2,20.8 -2.4,2.6,20.8 -2.4,2.6,30.2 -2.4,-0.2,30.2 1.6,-0.2,30.2 1.6,2.6,30.2 1.6,2.6,20.8 1.6,-0.2,20.8 1.6,-0.2,20.8 -2.4,-0.2,20.8 -2.4,-0.2,30.2 1.6,-0.2,30.2 1.6,2.6,30.2 -2.4,2.6,30.2 -2.4,2.6,20.8 1.6,2.6,20.8 -2.4,2.6,30.2 1.6,2.6,30.2 1.6,-0.2,30.2 -2.4,-0.2,30.2 -2.4,-0.2,20.8 1.6,-0.2,20.8 1.6,2.6,20.8 -2.4,2.6,20.8" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-0.4,1.2,33.44 -0.4,1.2,33.44 -0.4,1.2,33.44 -0.4,1.2,33.44 -0.4,1.2,33.44 -0.4,1.2,33.44 -0.4,1.2,33.44 0.5,1.2,33.198845726812 0.0500000000000001,1.97942286340599,33.198845726812 -0.85,1.97942286340599,33.198845726812 -1.3,1.2,33.198845726812 -0.85,0.420577136594006,33.198845726812 0.0499999999999994,0.420577136594005,33.198845726812 0.5,1.2,33.198845726812 1.15884572681199,1.2,32.54 0.379422863405995,2.55,32.54 -1.17942286340599,2.55,32.54 -1.95884572681199,1.2,32.54 -1.179422863406,-0.149999999999999,32.54 0.379422863405994,-0.15,32.54 1.15884572681199,1.2,32.54 1.4,1.2,31.64 0.5,2.75884572681199,31.64 -1.3,2.75884572681199,31.64 -2.2,1.2,31.64 -1.3,-0.358845726811989,31.64 0.499999999999999,-0.35884572681199,31.64 1.4,1.2,31.64 1.15884572681199,1.2,30.74 0.379422863405995,2.55,30.74 -1.17942286340599,2.55,30.74 -1.95884572681199,1.2,30.74 -1.179422863406,-0.149999999999999,30.74 0.379422863405994,-0.150000000000001,30.74 1.15884572681199,1.2,30.74 0.500000000000001,1.2,30.081154273188 0.0500000000000005,1.979422863406,30.081154273188 -0.85,1.979422863406,30.081154273188 -1.3,1.2,30.081154273188 -0.850000000000001,0.420577136594005,30.081154273188 0.0499999999999998,0.420577136594005,30.081154273188 0.500000000000001,1.2,30.081154273188 -0.4,1.2,29.84 -0.4,1.2,29.84 -0.4,1.2,29.84 -0.4,1.2,29.84 -0.4,1.2,29.84 -0.4,1.2,29.84 -0.4,1.2,29.84" Normals="0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0,0,1 0.5,0,0.866025403784439 0.25,0.433012701892219,0.866025403784439 -0.25,0.433012701892219,0.866025403784439 -0.5,6.12303176911189E-17,0.866025403784439 -0.25,-0.433012701892219,0.866025403784439 0.25,-0.433012701892219,0.866025403784439 0.5,-1.22460635382238E-16,0.866025403784439 0.866025403784439,0,0.5 0.433012701892219,0.75,0.5 -0.433012701892219,0.75,0.5 -0.866025403784439,1.06054021204601E-16,0.5 -0.43301270189222,-0.75,0.5 0.433012701892219,-0.75,0.5 0.866025403784439,-2.12108042409203E-16,0.5 1,0,6.12303176911189E-17 0.5,0.866025403784439,6.12303176911189E-17 -0.5,0.866025403784439,6.12303176911189E-17 -1,1.22460635382238E-16,6.12303176911189E-17 -0.5,-0.866025403784438,6.12303176911189E-17 0.499999999999999,-0.866025403784439,6.12303176911189E-17 1,-2.44921270764475E-16,6.12303176911189E-17 0.866025403784439,0,-0.5 0.433012701892219,0.75,-0.5 -0.433012701892219,0.75,-0.5 -0.866025403784439,1.06054021204601E-16,-0.5 -0.43301270189222,-0.75,-0.5 0.433012701892219,-0.75,-0.5 0.866025403784439,-2.12108042409203E-16,-0.5 0.5,0,-0.866025403784438 0.25,0.43301270189222,-0.866025403784438 -0.25,0.43301270189222,-0.866025403784438 -0.5,6.12303176911189E-17,-0.866025403784438 -0.25,-0.433012701892219,-0.866025403784438 0.25,-0.43301270189222,-0.866025403784438 0.5,-1.22460635382238E-16,-0.866025403784438 1.22460635382238E-16,0,-1 6.12303176911189E-17,1.06054021204601E-16,-1 -6.12303176911188E-17,1.06054021204601E-16,-1 -1.22460635382238E-16,1.49966072182214E-32,-1 -6.12303176911189E-17,-1.06054021204601E-16,-1 6.12303176911188E-17,-1.06054021204601E-16,-1 1.22460635382238E-16,-2.99932144364427E-32,-1" TextureCoordinates="0,0 0.166666666666667,0 0.333333333333333,0 0.5,0 0.666666666666667,0 0.833333333333333,0 1,0 0,0.166666666666667 0.166666666666667,0.166666666666667 0.333333333333333,0.166666666666667 0.5,0.166666666666667 0.666666666666667,0.166666666666667 0.833333333333333,0.166666666666667 1,0.166666666666667 0,0.333333333333333 0.166666666666667,0.333333333333333 0.333333333333333,0.333333333333333 0.5,0.333333333333333 0.666666666666667,0.333333333333333 0.833333333333333,0.333333333333333 1,0.333333333333333 0,0.5 0.166666666666667,0.5 0.333333333333333,0.5 0.5,0.5 0.666666666666667,0.5 0.833333333333333,0.5 1,0.5 0,0.666666666666667 0.166666666666667,0.666666666666667 0.333333333333333,0.666666666666667 0.5,0.666666666666667 0.666666666666667,0.666666666666667 0.833333333333333,0.666666666666667 1,0.666666666666667 0,0.833333333333333 0.166666666666667,0.833333333333333 0.333333333333333,0.833333333333333 0.5,0.833333333333333 0.666666666666667,0.833333333333333 0.833333333333333,0.833333333333333 1,0.833333333333333 0,1 0.166666666666667,1 0.333333333333333,1 0.5,1 0.666666666666667,1 0.833333333333333,1 1,1" TriangleIndices="8 0 7 9 1 8 10 2 9 11 3 10 12 4 11 13 5 12 7 15 8 15 7 14 8 16 9 16 8 15 9 17 10 17 9 16 10 18 11 18 10 17 11 19 12 19 11 18 12 20 13 20 12 19 14 22 15 22 14 21 15 23 16 23 15 22 16 24 17 24 16 23 17 25 18 25 17 24 18 26 19 26 18 25 19 27 20 27 19 26 21 29 22 29 21 28 22 30 23 30 22 29 23 31 24 31 23 30 24 32 25 32 24 31 25 33 26 33 25 32 26 34 27 34 26 33 28 36 29 36 28 35 29 37 30 37 29 36 30 38 31 38 30 37 31 39 32 39 31 38 32 40 33 40 32 39 33 41 34 41 33 40 35 43 36 36 44 37 37 45 38 38 46 39 39 47 40 40 48 41" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.1,-1.2,33.44 -2.1,3.6,33.44 -2.1,3.6,41.64 -2.1,-1.2,41.64 1.3,-1.2,41.64 1.3,3.6,41.64 1.3,3.6,33.44 1.3,-1.2,33.44 1.3,-1.2,33.44 -2.1,-1.2,33.44 -2.1,-1.2,41.64 1.3,-1.2,41.64 1.3,3.6,41.64 -2.1,3.6,41.64 -2.1,3.6,33.44 1.3,3.6,33.44 -2.1,3.6,41.64 1.3,3.6,41.64 1.3,-1.2,41.64 -2.1,-1.2,41.64 -2.1,-1.2,33.44 1.3,-1.2,33.44 1.3,3.6,33.44 -2.1,3.6,33.44" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2,-0.6,41.64 -2,3,41.64 -2,3,46.24 -2,-0.6,46.24 1.2,-0.6,46.24 1.2,3,46.24 1.2,3,41.64 1.2,-0.6,41.64 1.2,-0.6,41.64 -2,-0.6,41.64 -2,-0.6,46.24 1.2,-0.6,46.24 1.2,3,46.24 -2,3,46.24 -2,3,41.64 1.2,3,41.64 -2,3,46.24 1.2,3,46.24 1.2,-0.6,46.24 -2,-0.6,46.24 -2,-0.6,41.64 1.2,-0.6,41.64 1.2,3,41.64 -2,3,41.64" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-1.9,-0.4,46.44 -1.9,2.8,46.44 -1.9,2.8,52.04 -1.9,-0.4,52.04 1.1,-0.4,52.04 1.1,2.8,52.04 1.1,2.8,46.44 1.1,-0.4,46.44 1.1,-0.4,46.44 -1.9,-0.4,46.44 -1.9,-0.4,52.04 1.1,-0.4,52.04 1.1,2.8,52.04 -1.9,2.8,52.04 -1.9,2.8,46.44 1.1,2.8,46.44 -1.9,2.8,52.04 1.1,2.8,52.04 1.1,-0.4,52.04 -1.9,-0.4,52.04 -1.9,-0.4,46.44 1.1,-0.4,46.44 1.1,2.8,46.44 -1.9,2.8,46.44" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/1.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.3,-2.4,0 -2.3,1.6,0 -2.3,1.6,8.4 -2.3,-2.4,8.4 -0.9,-2.4,8.4 -0.9,1.6,8.4 -0.9,1.6,0 -0.9,-2.4,0 -0.9,-2.4,0 -2.3,-2.4,0 -2.3,-2.4,8.4 -0.9,-2.4,8.4 -0.9,1.6,8.4 -2.3,1.6,8.4 -2.3,1.6,0 -0.9,1.6,0 -2.3,1.6,8.4 -0.9,1.6,8.4 -0.9,-2.4,8.4 -2.3,-2.4,8.4 -2.3,-2.4,0 -0.9,-2.4,0 -0.9,1.6,0 -2.3,1.6,0" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-3.6,-1,8.4 -3.6,0.2,8.4 -3.6,0.2,14.4 -3.6,-1,14.4 0.4,-1,14.4 0.4,0.2,14.4 0.4,0.2,8.4 0.4,-1,8.4 0.4,-1,8.4 -3.6,-1,8.4 -3.6,-1,14.4 0.4,-1,14.4 0.4,0.2,14.4 -3.6,0.2,14.4 -3.6,0.2,8.4 0.4,0.2,8.4 -3.6,0.2,14.4 0.4,0.2,14.4 0.4,-1,14.4 -3.6,-1,14.4 -3.6,-1,8.4 0.4,-1,8.4 0.4,0.2,8.4 -3.6,0.2,8.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.1,-2.2,14.6 -2.1,1.4,14.6 -2.1,1.4,22.4 -2.1,-2.2,22.4 -1.1,-2.2,22.4 -1.1,1.4,22.4 -1.1,1.4,14.6 -1.1,-2.2,14.6 -1.1,-2.2,14.6 -2.1,-2.2,14.6 -2.1,-2.2,22.4 -1.1,-2.2,22.4 -1.1,1.4,22.4 -2.1,1.4,22.4 -2.1,1.4,14.6 -1.1,1.4,14.6 -2.1,1.4,22.4 -1.1,1.4,22.4 -1.1,-2.2,22.4 -2.1,-2.2,22.4 -2.1,-2.2,14.6 -1.1,-2.2,14.6 -1.1,1.4,14.6 -2.1,1.4,14.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.4,-2.1,22.6 -2.4,1.3,22.6 -2.4,1.3,27.8 -2.4,-2.1,27.8 -0.8,-2.1,27.8 -0.8,1.3,27.8 -0.8,1.3,22.6 -0.8,-2.1,22.6 -0.8,-2.1,22.6 -2.4,-2.1,22.6 -2.4,-2.1,27.8 -0.8,-2.1,27.8 -0.8,1.3,27.8 -2.4,1.3,27.8 -2.4,1.3,22.6 -0.8,1.3,22.6 -2.4,1.3,27.8 -0.8,1.3,27.8 -0.8,-2.1,27.8 -2.4,-2.1,27.8 -2.4,-2.1,22.6 -0.8,-2.1,22.6 -0.8,1.3,22.6 -2.4,1.3,22.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.9,-1.8,28 -2.9,1,28 -2.9,1,35.4 -2.9,-1.8,35.4 -0.3,-1.8,35.4 -0.3,1,35.4 -0.3,1,28 -0.3,-1.8,28 -0.3,-1.8,28 -2.9,-1.8,28 -2.9,-1.8,35.4 -0.3,-1.8,35.4 -0.3,1,35.4 -2.9,1,35.4 -2.9,1,28 -0.3,1,28 -2.9,1,35.4 -0.3,1,35.4 -0.3,-1.8,35.4 -2.9,-1.8,35.4 -2.9,-1.8,28 -0.3,-1.8,28 -0.3,1,28 -2.9,1,28" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-3.4,-2.7,35.4 -3.4,1.9,35.4 -3.4,1.9,41.4 -3.4,-2.7,41.4 0.2,-2.7,41.4 0.2,1.9,41.4 0.2,1.9,35.4 0.2,-2.7,35.4 0.2,-2.7,35.4 -3.4,-2.7,35.4 -3.4,-2.7,41.4 0.2,-2.7,41.4 0.2,1.9,41.4 -3.4,1.9,41.4 -3.4,1.9,35.4 0.2,1.9,35.4 -3.4,1.9,41.4 0.2,1.9,41.4 0.2,-2.7,41.4 -3.4,-2.7,41.4 -3.4,-2.7,35.4 0.2,-2.7,35.4 0.2,1.9,35.4 -3.4,1.9,35.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-3.7,-2.7,41.4 -3.7,1.9,41.4 -3.7,1.9,50.6 -3.7,-2.7,50.6 0.5,-2.7,50.6 0.5,1.9,50.6 0.5,1.9,41.4 0.5,-2.7,41.4 0.5,-2.7,41.4 -3.7,-2.7,41.4 -3.7,-2.7,50.6 0.5,-2.7,50.6 0.5,1.9,50.6 -3.7,1.9,50.6 -3.7,1.9,41.4 0.5,1.9,41.4 -3.7,1.9,50.6 0.5,1.9,50.6 0.5,-2.7,50.6 -3.7,-2.7,50.6 -3.7,-2.7,41.4 0.5,-2.7,41.4 0.5,1.9,41.4 -3.7,1.9,41.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-3,-2.5,50.6 -3,1.7,50.6 -3,1.7,60.2 -3,-2.5,60.2 -0.2,-2.5,60.2 -0.2,1.7,60.2 -0.2,1.7,50.6 -0.2,-2.5,50.6 -0.2,-2.5,50.6 -3,-2.5,50.6 -3,-2.5,60.2 -0.2,-2.5,60.2 -0.2,1.7,60.2 -3,1.7,60.2 -3,1.7,50.6 -0.2,1.7,50.6 -3,1.7,60.2 -0.2,1.7,60.2 -0.2,-2.5,60.2 -3,-2.5,60.2 -3,-2.5,50.6 -0.2,-2.5,50.6 -0.2,1.7,50.6 -3,1.7,50.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-2.2,-2.6,60.4 -2.2,1.8,60.4 -2.2,1.8,64.6 -2.2,-2.6,64.6 -1,-2.6,64.6 -1,1.8,64.6 -1,1.8,60.4 -1,-2.6,60.4 -1,-2.6,60.4 -2.2,-2.6,60.4 -2.2,-2.6,64.6 -1,-2.6,64.6 -1,1.8,64.6 -2.2,1.8,64.6 -2.2,1.8,60.4 -1,1.8,60.4 -2.2,1.8,64.6 -1,1.8,64.6 -1,-2.6,64.6 -2.2,-2.6,64.6 -2.2,-2.6,60.4 -1,-2.6,60.4 -1,1.8,60.4 -2.2,1.8,60.4" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+      <GeometryModel3D>
+        <GeometryModel3D.Geometry>
+          <MeshGeometry3D Positions="-3.5,-1.9,64.6 -3.5,1.1,64.6 -3.5,1.1,72.2 -3.5,-1.9,72.2 0.3,-1.9,72.2 0.3,1.1,72.2 0.3,1.1,64.6 0.3,-1.9,64.6 0.3,-1.9,64.6 -3.5,-1.9,64.6 -3.5,-1.9,72.2 0.3,-1.9,72.2 0.3,1.1,72.2 -3.5,1.1,72.2 -3.5,1.1,64.6 0.3,1.1,64.6 -3.5,1.1,72.2 0.3,1.1,72.2 0.3,-1.9,72.2 -3.5,-1.9,72.2 -3.5,-1.9,64.6 0.3,-1.9,64.6 0.3,1.1,64.6 -3.5,1.1,64.6" TextureCoordinates="1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0 1,1 0,1 0,0 1,0" TriangleIndices="2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22" />
+        </GeometryModel3D.Geometry>
+        <GeometryModel3D.Material>
+          <DiffuseMaterial>
+            <DiffuseMaterial.Brush>
+              <ImageBrush ImageSource="file:///C:/Users/mikiw_000/Dropbox/Tool/CityGenerator/SimpleDemo/bin/Debug/textures/2.png" Opacity="1" />
+            </DiffuseMaterial.Brush>
+          </DiffuseMaterial>
+        </GeometryModel3D.Material>
+        <GeometryModel3D.BackMaterial>
+          <MaterialGroup>
+            <MaterialGroup.Children>
+              <DiffuseMaterial AmbientColor="#FFFFFFFF" Brush="#FFADD8E6" />
+              <SpecularMaterial Brush="#FFFFFFFF" SpecularPower="100" />
+            </MaterialGroup.Children>
+          </MaterialGroup>
+        </GeometryModel3D.BackMaterial>
+      </GeometryModel3D>
+    </Model3DGroup.Children>
+  </Model3DGroup>
+</ResourceDictionary>

@@ -1,0 +1,322 @@
+﻿<Window x:Class="SimpleGenerator.DockWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleGenerator"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+        xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+        xmlns:dxcore="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:ve="http://schemas.devexpress.com/winfx/2008/xaml/docking/visualelements"
+        xmlns:dxt="http://schemas.devexpress.com/winfx/2008/xaml/docking/themekeys"
+        mc:Ignorable="d"
+        Title="City Generator by MW" Height="700" Width="1000">
+    <Window.Resources>
+        <ControlTemplate x:Key="{dxt:DocumentElementsThemeKey ResourceKey=Template}" TargetType="ve:Document">
+            <Border x:Name="border" ve:DockPane.HitTestType="Bounds" Background="Transparent">
+                <ve:DocumentContentPresenter x:Name="PART_ContentPresenter" Content="{TemplateBinding Content}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <DataTrigger Binding="{Binding IsFloatingRootItem}" Value="true">
+                    <Setter  TargetName="border" Property="Margin" Value="-2"/>
+                </DataTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <dxb:MainMenuControl>
+                <dxb:BarSubItem Content="File">
+                    <dxb:BarButtonItem Content="Export" ItemClick="Button_Export_Click"/>
+                    <dxb:BarButtonItem Content="Import" ItemClick="Button_Import_Click" IsEnabled="False"/>
+                </dxb:BarSubItem>
+                <dxb:BarSubItem Content="View">
+                    <dxb:BarButtonItem Content="MetropolisDark" ItemClick="MenuItem_Click"/>
+                    <dxb:BarButtonItem Content="Office2016Black" ItemClick="MenuItem_Click"/>
+                    <dxb:BarButtonItem Content="Office2007Blue" ItemClick="MenuItem_Click"/>
+                    <dxb:BarButtonItem Content="Office2010Black" ItemClick="MenuItem_Click"/>
+                </dxb:BarSubItem>
+            </dxb:MainMenuControl>
+        </StackPanel>
+        <dxdo:DockLayoutManager Margin="0,20,0,0" Name="dockManager1">
+            <dxdo:LayoutGroup x:Name="RootGroup" Orientation="Horizontal">
+                <dxdo:LayoutGroup x:Name="LayoutGroup1" Orientation="Vertical" ItemWidth="3*">
+                    <dxdo:LayoutGroup x:Name="LayoutGroup2" Orientation="Horizontal" ItemHeight="1.5*">
+                        <dxdo:LayoutPanel x:Name="panePreview" Caption="Preview">
+                            <local:PreviewControl x:Name="mainPreviewControl"/>
+                        </dxdo:LayoutPanel>
+                    </dxdo:LayoutGroup>
+                    <dxdo:TabbedGroup Padding="12" ItemHeight="0.5*">
+                        <dxdo:LayoutPanel x:Name="paneErrorList" Caption="Error List">
+                        </dxdo:LayoutPanel>
+                        <dxdo:LayoutPanel x:Name="paneOutput" Caption="Output">
+                        </dxdo:LayoutPanel>
+                    </dxdo:TabbedGroup>
+                </dxdo:LayoutGroup>
+                <dxdo:LayoutGroup x:Name="LayoutGroup3" Orientation="Vertical" Caption="LayoutRoot">
+                    <dxdo:DocumentGroup x:Name="documentGroup2" ItemHeight="0.20*">
+                        <dxdo:DocumentPanel Caption="City">
+                            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                <WrapPanel>
+                                    <Grid Margin="5"  Width="300">
+                                        <Button Content="Generate" Click="Button_Generate_Click" Height="30" Width="100" HorizontalAlignment="Left" Margin="10"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Map Size:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="minMapSize" Margin="5" HorizontalAlignment="Left" Width="40" Text="-10"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5" HorizontalAlignment="Left"/>
+                                        <TextBox Grid.Column="3" Name="maxMapSize" Margin="5" HorizontalAlignment="Left" Width="40" Text="10"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="City Center Size:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="minCenterMapSize" HorizontalAlignment="Left" Margin="5" Width="40" Text="-3"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5" HorizontalAlignment="Left"/>
+                                        <TextBox Grid.Column="3" Name="maxCenterMapSize" HorizontalAlignment="Left" Margin="5" Width="40" Text="3"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="City Center Height Factor:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="cityCenterHeightMultiplayer" HorizontalAlignment="Left" Margin="5" Width="40" Text="2"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Middle City Center Size:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="minMiddleMapSize" HorizontalAlignment="Left" Margin="5" Width="40" Text="-6"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5" HorizontalAlignment="Left"/>
+                                        <TextBox Grid.Column="3" Name="maxMiddleMapSize" HorizontalAlignment="Left" Margin="5" Width="40" Text="6"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Middle City Height Factor:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="middleCityCenterHeightMultiplayer" HorizontalAlignment="Left" Margin="5" Width="40" Text="2"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="City Height:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="minHeight" Margin="5" Width="40" Text="3" HorizontalAlignment="Left"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5" HorizontalAlignment="Left"/>
+                                        <TextBox Grid.Column="3" Name="maxHeight" HorizontalAlignment="Left" Margin="5" Width="40" Text="5"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Iterations:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="iterations" HorizontalAlignment="Left" Margin="5" Width="40" Text="75"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Spaces:" Margin="5"/>
+                                        <TextBox Grid.Column="1" Name="spacesBetween" HorizontalAlignment="Left" Margin="5" Width="40" Text="2"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="City Plan:" Margin="5"/>
+                                        <ComboBox Grid.Column="1" SelectedIndex="0"  Width="100" Height="25" Name="combobox" HorizontalAlignment="Left">
+                                            <ComboBoxItem Tag="Grid">Grid</ComboBoxItem>
+                                            <ComboBoxItem Tag="Random">Grid Random</ComboBoxItem>
+                                            <ComboBoxItem Tag="Circle">Circle</ComboBoxItem>
+                                            <ComboBoxItem Tag="Circle Random">Circle Random</ComboBoxItem>
+                                        </ComboBox>
+                                    </Grid>
+                                </WrapPanel>
+                            </ScrollViewer>
+                        </dxdo:DocumentPanel>
+                        <dxdo:DocumentPanel Caption="Dynamic Tower">
+                            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                <WrapPanel>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Height factor:" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="dynamicHeightFactor" Margin="5" Width="40" Text="2"/>
+                                    </Grid>
+                                    <TextBlock Text="(Dynamic Towers are so cool that they need to be higher than others buildings!)" TextWrapping="Wrap" Height="50" Width="200" Margin="20,-10,10,10"/>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Angle:" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="minAngle" Margin="5" Width="40" Text="15"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5"/>
+                                        <TextBox Grid.Column="3" x:Name="maxAngle" Margin="5" Width="40" Text="35"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="X Size" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="xSize" Margin="5" Width="40" Text="1"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Y Size" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="ySize" Margin="5" Width="40" Text="1"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Z Size" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="zSize" Margin="5" Width="40" Text="1" />
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Base Size" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="minBaseSize" Margin="5" Width="40" Text="1"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5"/>
+                                        <TextBox Grid.Column="3" x:Name="maxBaseSize" Margin="5" Width="40" Text="2"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="300">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="ThetaDiv (cone)" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="minConeThetaDiv" Margin="5" Width="40" Text="4"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5"/>
+                                        <TextBox Grid.Column="3" x:Name="maxConeThetaDiv" Margin="5" Width="40" Text="6"/>
+                                    </Grid>
+                                </WrapPanel>
+                            </ScrollViewer>
+                        </dxdo:DocumentPanel>
+                        <dxdo:DocumentPanel Caption="Advanced">
+                            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                <WrapPanel>
+                                    <Grid Margin="5" Width="325">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="175"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Float In The Air:" Margin="5"/>
+                                        <CheckBox Grid.Column="1" Name="floatInTheAir" Margin="10" Click="floatInTheAir_Click" />
+                                    </Grid>
+                                    <Grid Margin="5" Width="325">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="175"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Float Height:" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="minFloatHeight" Margin="5" Width="40" Text="0"/>
+                                        <Label Grid.Column="2" Content="-" Margin="5"/>
+                                        <TextBox Grid.Column="3" x:Name="maxFloatHeight" Margin="5" Width="40" Text="0.5"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="325">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="175"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Normal Building Probability:" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="normalBuildingProbability" Margin="5" Width="40" Text="10" TextChanged="normalBuildingProbability_TextChanged"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="325">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="175"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Dynamic Building Probability:" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="dynamicBuildingProbability" Margin="5" Width="40" Text="1" TextChanged="dynamicBuildingProbability_TextChanged"/>
+                                    </Grid>
+                                    <Grid Margin="5" Width="325">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="175"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Double Probability Factor:" Margin="5"/>
+                                        <TextBox Grid.Column="1" x:Name="probabilityFactor" Margin="5" Width="40" Text="0.2" TextChanged="probabilityFactor_TextChanged"/>
+                                    </Grid>
+                                </WrapPanel>
+                            </ScrollViewer>
+                        </dxdo:DocumentPanel>
+                    </dxdo:DocumentGroup>
+                    <dxdo:LayoutPanel x:Name="paneToolbox" Caption="Textures" ItemHeight="0.20*">
+                        <local:TextureControl x:Name="textureControl"/>
+                    </dxdo:LayoutPanel>
+                    <dxdo:DocumentGroup x:Name="documentGroup1" ItemHeight="0.6*">
+                        <dxdo:DocumentPanel Caption="Cube">
+                            <local:BoxModuleView x:Name="boxModule"/>
+                        </dxdo:DocumentPanel>
+                        <dxdo:DocumentPanel Caption="Sphere">
+                            <local:SphereModuleView x:Name="sphereModule" />
+                        </dxdo:DocumentPanel>
+                        <dxdo:DocumentPanel Caption="Cone">
+                            <local:ConeModuleView x:Name="coneModule" Focusable="True" />
+                        </dxdo:DocumentPanel>
+                        <dxdo:DocumentPanel Caption="Pipe">
+                            <local:PipeModuleView x:Name="pipeModule" />
+                        </dxdo:DocumentPanel>
+                    </dxdo:DocumentGroup>
+                </dxdo:LayoutGroup>
+            </dxdo:LayoutGroup>
+        </dxdo:DockLayoutManager>
+    </Grid>
+</Window>
