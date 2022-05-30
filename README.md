@@ -3,7 +3,7 @@ CityGenerator v 0.1 is a WPF/DirectX tool to generate meshes of cities or other 
 
 This tool can be easily extended to use models instead of 3d figures.
 
-## Day 0 - Inspiration
+### Day 0 - Inspiration
 I like medieval or fantasy games like Dark Souls and The Witcher but I’m loved in Sci-fi worlds and cities. My inspirations to this demo are sci-fi cites from cyberpunk universes like Ghost in the shell, Infinity The Game, Android Netrunner, Eve Online and Blade Runner.
 
 ![Android Netrunner City](./Doc/1.png)
@@ -30,36 +30,36 @@ It’s also possible to migrate lights and animations (Animatable class) from WP
 
 ![Mirrors Edge Minimalistic City](./Doc/5.png)
 
-## Day 1 - Proof of concept as Unity 3D plugin
+### Day 1 - Proof of concept as Unity 3D plugin
 ![Mirrors Edge Minimalistic City](./Doc/6.png)
 
-## Day 5 - WPF tool
+### Day 5 - WPF tool
 ![Mirrors Edge Minimalistic City](./Doc/7.png)
 
-## Day 8 - Exported Meshes in Unity 3d game engine
+### Day 8 - Exported meshes in Unity 3d game engine
 ![](./Doc/8.png)
 ![](./Doc/9.png)
 
-## Day 11 - Exported Meshes in Unity 3d game engine
+### Day 11 - Exported meshes in Unity 3d game engine
 ![](./Doc/10.png)
 
-## Day 12 - Exported Meshes in Unity 3d game engine
+### Day 12 - Exported meshes in Unity 3d game engine
 ![](./Doc/11.png)
 
 Lacking motivation and inspiration? Creating sci-fi cities? Just use my tool in single building mode with low iterations and small map size and random city plan.
 ![](./Doc/12.png)
 
-### Using this tool in future real life scenario
-
-In future workflow will be as follow:
+### Using this tool in the future real-life scenario
+In the future workflow will be as follow:
 - 3d modeler with texture graphic create city segments,
-- Tool load segments of city from *.obj or other format and procedurally generated whole cities or just buildings based on segments with changeable logic.
+- Tool load segments of the city from *.obj or other format and procedurally generated whole cities or just buildings based on segments with changeable logic.
 
 ### Parameters
-Each module have min / max parameters for example width, height etc. if you want get preview of each of it you need to wait 5 seconds or click “Generate preview” to reload it.
+Each module has min/max parameters for example width, height, etc. if you want to get a preview of each of them you need to wait 5 seconds or click “Generate preview” to reload it.
 
-Remember that is only a demo and some parameters are not validate for example you can't create sphere with lack of triangles.
-If you want to disable module use Frequency 0 property.
+Remember that is only a demo and some parameters are not validated for example you can't create a sphere with a lack of triangles.
+
+If you want to disable the module use Frequency 0 property.
 
 You can also enable/disable textures and load them from external folder as *.jpg, *.jpeg, *.png files.
 
@@ -67,20 +67,20 @@ You can also enable/disable textures and load them from external folder as *.jpg
 ![](./Doc/14.png)
 ![](./Doc/15.png)
 
-Currently there are only 2 types of buildings, normal ones created from random modules and dynamic towers. Each dynamic tower might by made of cones or cubes with 50/50 probability.
+Currently, there are only 2 types of buildings, normal ones created from random modules and dynamic towers. Each dynamic tower might be made of cones or cubes with a 50/50 probability.
 
-You can specify map size of city center, middle city and rest of city with parameters for city size. Also you can use height factor to scale your city in these areas.
+You can specify the map size of the city center, middle city, and rest of the city with parameters for city size. Also, you can use the height factor to scale your city in these areas.
 
-Iterations are just number of buildings to create in one generation.
-Spaces and city plans are not fully supported by now and need to be change and tested but you can try them out as they are today.
+Iterations are just a number of buildings created in one generation.
+Spaces and city plans are not fully supported by now and need to be changed and tested but you can try them out as they are today.
 
-Float in the air (advanced option) is a feature to creating elements in distances for example for city with super ant-gravity boson higgs technology or just to create fancy single buildings.
+Float in the air (advanced option) is a feature for creating elements in distances for example for cities with super anti-gravity boson Higgs technology or just to create fancy single buildings.
 
-You can also change probability of each building type.
+You can also change the probability of each building type.
 
-Double factor (advanced option) is a scalar that can change probability for modules functionality. If you want more ordered buildings for example cubes with 0.5, 1, 1.5, 2.0 lengths you should set it on 0.5.
+A double factor (advanced option) is a scalar that can change the probability of module functionality. If you want more ordered buildings for example cubes with 0.5, 1, 1.5, 2.0 lengths you should set it on 0.5.
 
-Dynamic towers have x,y,z sizes factors and min/max angle random per element per building. In future it might have different angles like tower in inspiration section
+Dynamic towers have x,y,z size factors and min/max angle random per element per building. In future, it might have different angles like a tower in the inspiration section.
 
 ![](./Doc/16.png)
 ![](./Doc/17.png)
