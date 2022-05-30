@@ -48,3 +48,40 @@ It’s also possible to migrate lights and animations (Animatable class) from WP
 
 Lacking motivation and inspiration? Creating sci-fi cities? Just use my tool in single building mode with low iterations and small map size and random city plan.
 ![](./Doc/12.png)
+
+### Using this tool in future real life scenario
+
+In future workflow will be as follow:
+- 3d modeler with texture graphic create city segments,
+- Tool load segments of city from *.obj or other format and procedurally generated whole cities or just buildings based on segments with changeable logic.
+
+### Parameters
+Each module have min / max parameters for example width, height etc. if you want get preview of each of it you need to wait 5 seconds or click “Generate preview” to reload it.
+
+Remember that is only a demo and some parameters are not validate for example you can't create sphere with lack of triangles.
+If you want to disable module use Frequency 0 property.
+
+You can also enable/disable textures and load them from external folder as *.jpg, *.jpeg, *.png files.
+
+![](./Doc/13.png)
+![](./Doc/14.png)
+![](./Doc/15.png)
+
+Currently there are only 2 types of buildings, normal ones created from random modules and dynamic towers. Each dynamic tower might by made of cones or cubes with 50/50 probability.
+
+You can specify map size of city center, middle city and rest of city with parameters for city size. Also you can use height factor to scale your city in these areas.
+
+Iterations are just number of buildings to create in one generation.
+Spaces and city plans are not fully supported by now and need to be change and tested but you can try them out as they are today.
+
+Float in the air (advanced option) is a feature to creating elements in distances for example for city with super ant-gravity boson higgs technology or just to create fancy single buildings.
+
+You can also change probability of each building type.
+
+Double factor (advanced option) is a scalar that can change probability for modules functionality. If you want more ordered buildings for example cubes with 0.5, 1, 1.5, 2.0 lengths you should set it on 0.5.
+
+Dynamic towers have x,y,z sizes factors and min/max angle random per element per building. In future it might have different angles like tower in inspiration section
+
+![](./Doc/16.png)
+![](./Doc/17.png)
+![](./Doc/18.png)
