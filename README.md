@@ -3,7 +3,7 @@ CityGenerator v 0.1 is a WPF/DirectX tool to generate mesh of cities or other st
 
 This tool can be easily extended to use models instead of 3d figures.
 
-# Day 0 - Inspiration
+## Day 0 - Inspiration
 I like medieval or fantasy games like Dark Souls and The Witcher but I’m loved in Sci-fi worlds and cities. My inspirations to this demo are sci-fi cites from cyberpunk universes like Ghost in the shell, Infinity The Game, Android Netrunner, Eve Online and Blade Runner.
 
 ![Android Netrunner City](./Doc/1.png)
@@ -28,4 +28,23 @@ If you are creating tool to generate meshes with materials in WPF and export sce
 I decided to export data in *.obj and *.mtl format for meshes and materials, it’s simple and common format for 3d models. It’s also possible to create / reconstruct other object like shaders, colliders etc in MenuEdit Helper plugin for Unity 3D.
 It’s also possible to migrate lights and animations (Animatable class) from WPF to Unity 3D but you need to have come contract for each object to recreate it in Unity 3D from XAML/XML. It might be also possible to migrate even shaders with SharpDX integration. This things are not implemented yet due to time consuming. I had enough problems with *.obj export mainly with localization and textures.
 
-# Day 1 - Proof of concept as Unity 3D plugin
+![Mirrors Edge Minimalistic City](./Doc/5.png)
+
+## Day 1 - Proof of concept as Unity 3D plugin
+![Mirrors Edge Minimalistic City](./Doc/6.png)
+
+## Day 5 - WPF tool
+![Mirrors Edge Minimalistic City](./Doc/7.png)
+
+## Day 8 - Exported Meshes in Unity 3d game engine
+![](./Doc/8.png)
+![](./Doc/9.png)
+
+## Day 11 - Exported Meshes in Unity 3d game engine
+![](./Doc/10.png)
+
+## Day 12 - Exported Meshes in Unity 3d game engine
+![](./Doc/11.png)
+
+Lacking motivation and inspiration? Creating sci-fi cities? Just use my tool in single building mode with low iterations and small map size and random city plan.
+![](./Doc/12.png)
